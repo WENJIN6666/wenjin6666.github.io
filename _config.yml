@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yunfan Leng | Academic Homepage"
+title                    : "Yunfan Leng | Homepage"
 title_separator          : "-"
 name                     : &name "Yunfan Leng"
 description              : &description "Undergraduate student focusing on time series forecasting and machine learning"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0002-3893-6886"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
