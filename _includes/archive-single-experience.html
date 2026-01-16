@@ -14,10 +14,6 @@
       <p><i>{{ post.venue }}</i>{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date | date: "%b %Y" }}{% endif %}</p>
     {% endif %}
 
-    {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% endif %}
-
     {{ post.content }}
   </article>
 </div>
