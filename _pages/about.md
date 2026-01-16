@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Yunfan Leng (冷云帆), a Ph.D. student in Computer Science at the [University of Houston](https://www.uh.edu/), starting from Fall 2026. I received my B.Eng. degree in Computer Science from [Dalian University of Technology](https://www.dlut.edu.cn/) in 2026.
+I am Yunfan Leng (冷云帆), a undergraduate student in Computer Science at the [Dalian University of Technology](https://www.dlut.edu.cn/), starting from Fall 2022.
 
 ## Research Interests
 
