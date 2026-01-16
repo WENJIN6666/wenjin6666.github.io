@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Assistant - Microcomputer Installation and Commissioning"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+permalink: /teaching/2023-ta-microcomputer
+venue: "Dalian University of Technology, School of Computer Science"
+date: 2023-03-01
+location: "Dalian, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+## Overview
 
-Heading 1
-======
+I served as a Teaching Assistant for the course "Microcomputer Installation and Commissioning" at Dalian University of Technology from March 2023 to March 2026.
 
-Heading 2
-======
+## Responsibilities
 
-Heading 3
-======
+- Assisted students with hands-on lab sessions
+- Graded assignments and provided feedback
+- Held office hours to answer student questions
+- Helped prepare course materials and demonstrations
