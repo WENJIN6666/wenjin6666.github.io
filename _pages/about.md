@@ -22,20 +22,6 @@ My research interests lie in **deep learning** and **scientific machine learning
 
 - **B.Eng. in Computer Science**, Dalian University of Technology, Sep 2022 - Present
 
-## Experience
-
-### Industry
-- **Technical Service Intern**, Inspur, Jul 2025 - Sep 2025
-  - Developed a forecasting model based on sequence decomposition methodology to predict server load spikes from live operational data
-  - Collaborated with engineering team to deploy the model, achieving measurable reduction in system crash frequency
-  - Maintained databases and network honeypots for Shandong Provincial Department of Transportation's Toll Settlement Center
-
-### Academic
-- **Research Assistant**, Dalian University of Technology, Mar 2025 - May 2026
-  - Advisor: Prof. Heng Qi
-- **Teaching Assistant**, Dalian University of Technology, Mar 2023 - Mar 2026
-  - Course: Microcomputer Installation and Commissioning
-
 ## Skills
 
 - **Programming Languages**: Python, C++, C, JavaScript, LaTeX
