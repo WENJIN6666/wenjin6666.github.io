@@ -12,7 +12,10 @@ main:
     url: /publications/
 
   - title: "Experiences"
-    url: /talks/    
+    url: /experiences/
+
+  #- title: "Talks"
+  #  url: /talks/    
 
   #- title: "Teaching"
   #  url: /teaching/    
