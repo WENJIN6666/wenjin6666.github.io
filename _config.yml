@@ -324,7 +324,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      # share: true  # Commented out to hide social share buttons
 
 
 # Sass/SCSS
