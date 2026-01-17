@@ -7,8 +7,8 @@ date: 2026-01-17
 
 I am an urban rail transit enthusiast with a long-standing interest in studying network planning, passenger flow patterns, and line construction developments across various cities.
 
-## Maximum Daily Ridership of Urban Rail Transit Systems in China
+## Maximum Daily Passenger Flow of Urban Rail Transit Systems in China
 
-![Maximum Daily Ridership of Urban Rail Transit Systems in China](/files/metromaxdata.jpg)
+![Maximum Daily Passenger Flow of Urban Rail Transit Systems in China](/files/metromaxdata.jpg)
 
-*Image source: [Weibo @MetroMax](https://weibo.com/1005052728041997?profile_ftype=1)*
+*Image source: [Weibo @地铁客流及运输研究阿牛](https://weibo.com/1005052728041997?profile_ftype=1)*
