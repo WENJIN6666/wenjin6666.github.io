@@ -41,3 +41,54 @@ Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 14, Line 16
 
 ### Wuhan
 Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 7, Line 8, Line 16
+
+### Hangzhou
+Line 1, Line 4
+
+### Nanjing
+Line 1
+
+### Changsha
+Line 1, Line 2, Line 3, Line 4, Line 5, Line 6
+
+### Suzhou
+Line 1
+
+### Tianjin
+Line 1, Line 2, Line 3, Line 5, Line 6
+
+### Shenyang
+Line 1, Line 2, Line 4, Line 9, Line 10
+
+### Qingdao
+Line 1, Line 2, Line 3, West Coast Express
+
+### Harbin
+Line 1, Line 2, Line 3
+
+### Fuzhou
+Line 1, Line 4
+
+### Jinan
+Line 1, Line 2, Line 3
+
+### Dalian
+Line 1, Line 2, Line 3, Line 5, Line 12
+
+### Xiamen
+Line 1, Line 2, Line 3
+
+### Changchun
+Line 1, Line 2, Line 3, Line 4
+
+### Hohhot
+Line 1, Line 2
+
+### Xuzhou
+Line 1
+
+### Taiyuan
+Line 1, Line 2
+
+### Foshan
+Line 2, Line 3
