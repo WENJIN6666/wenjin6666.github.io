@@ -15,80 +15,80 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ## Lines I Have Ridden
 
-### Beijing
-Line 1, Line 2, Line 3, Line 4·Daxing Line, Line 5, Line 6, Line 8, Line 10, Line 13, Line 14, Line 15, Capital Airport Express
-
-### Shanghai
-Line 1, Line 2, Line 8, Line 10, Line 11, Maglev Line
-
-### Guangzhou
-Line 1, Line 2, Line 3, Line 5, Line 6, Line 7, Line 8, Line 11, Line 13, Line 18, Line 21, Line 22, APM Line, Guangfo Line
-
-### Shenzhen
+### Shenzhen (15)
 Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 7, Line 8, Line 9, Line 10, Line 11, Line 12, Line 13, Line 14, Line 16
 
-### Chengdu
+### Guangzhou (14)
+Line 1, Line 2, Line 3, Line 5, Line 6, Line 7, Line 8, Line 11, Line 13, Line 18, Line 21, Line 22, APM Line, Guangfo Line
+
+### Beijing (12)
+Line 1, Line 2, Line 3, Line 4·Daxing Line, Line 5, Line 6, Line 8, Line 10, Line 13, Line 14, Line 15, Capital Airport Express
+
+### Chengdu (9)
 Line 1, Line 2, Line 3, Line 4, Line 5, Line 7, Line 10, Line 13, Line 18
 
-### Hong Kong
-Tsuen Wan Line, Kwun Tong Line, Island Line, East Rail Line, Tuen Ma Line, South Island Line, Tung Chung Line
-
-### Chongqing
-Line 1, Line 2, Line 6
-
-### Xi'an
-Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 14, Line 16
-
-### Wuhan
+### Wuhan (9)
 Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 7, Line 8, Line 16
 
-### Hangzhou
-Line 1, Line 4
+### Xi'an (8)
+Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 14, Line 16
 
-### Nanjing
-Line 1
+### Hong Kong (7)
+Tsuen Wan Line, Kwun Tong Line, Island Line, East Rail Line, Tuen Ma Line, South Island Line, Tung Chung Line
 
-### Changsha
+### Shanghai (6)
+Line 1, Line 2, Line 8, Line 10, Line 11, Maglev Line
+
+### Changsha (6)
 Line 1, Line 2, Line 3, Line 4, Line 5, Line 6
 
-### Suzhou
-Line 1
-
-### Tianjin
+### Tianjin (5)
 Line 1, Line 2, Line 3, Line 5, Line 6
 
-### Shenyang
+### Shenyang (5)
 Line 1, Line 2, Line 4, Line 9, Line 10
 
-### Qingdao
-Line 1, Line 2, Line 3, West Coast Express
-
-### Harbin
-Line 1, Line 2, Line 3
-
-### Fuzhou
-Line 1, Line 4
-
-### Jinan
-Line 1, Line 2, Line 3
-
-### Dalian
+### Dalian (5)
 Line 1, Line 2, Line 3, Line 5, Line 12
 
-### Xiamen
-Line 1, Line 2, Line 3
+### Qingdao (4)
+Line 1, Line 2, Line 3, West Coast Express
 
-### Changchun
+### Changchun (4)
 Line 1, Line 2, Line 3, Line 4
 
-### Hohhot
+### Chongqing (3)
+Line 1, Line 2, Line 6
+
+### Harbin (3)
+Line 1, Line 2, Line 3
+
+### Jinan (3)
+Line 1, Line 2, Line 3
+
+### Xiamen (3)
+Line 1, Line 2, Line 3
+
+### Hangzhou (2)
+Line 1, Line 4
+
+### Fuzhou (2)
+Line 1, Line 4
+
+### Hohhot (2)
 Line 1, Line 2
 
-### Xuzhou
+### Taiyuan (2)
+Line 1, Line 2
+
+### Foshan (2)
+Line 2, Line 3
+
+### Nanjing (1)
 Line 1
 
-### Taiyuan
-Line 1, Line 2
+### Suzhou (1)
+Line 1
 
-### Foshan
-Line 2, Line 3
+### Xuzhou (1)
+Line 1
