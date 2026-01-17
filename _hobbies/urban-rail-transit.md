@@ -84,7 +84,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_13_(Beijing_Subway)" style="background-color:#FBBF00;">13</a>
 <a href="https://en.wikipedia.org/wiki/Line_14_(Beijing_Subway)" style="background-color:#C74000;">14</a>
 <a href="https://en.wikipedia.org/wiki/Line_15_(Beijing_Subway)" style="background-color:#6A357C;">15</a>
-<a href="https://en.wikipedia.org/wiki/Beijing_Capital_Airport_Express" style="background-color:#9E9EAC;">机场</a>
+<a href="https://en.wikipedia.org/wiki/Beijing_Capital_Airport_Express" style="background-color:#9E9EAC;">CAE</a>
 </div>
 
 ### Chengdu (9)
@@ -127,13 +127,13 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ### Hong Kong (7)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Tsuen_Wan_line" style="background-color:#ED1D24;">荃湾</a>
-<a href="https://en.wikipedia.org/wiki/Kwun_Tong_line" style="background-color:#00AB4E;">观塘</a>
-<a href="https://en.wikipedia.org/wiki/Island_line_(MTR)" style="background-color:#007DC5;">港岛</a>
-<a href="https://en.wikipedia.org/wiki/East_Rail_line" style="background-color:#53B7E8;">东铁</a>
-<a href="https://en.wikipedia.org/wiki/Tuen_Ma_line" style="background-color:#923011;">屯马</a>
-<a href="https://en.wikipedia.org/wiki/South_Island_line" style="background-color:#BAC429;">南港岛</a>
-<a href="https://en.wikipedia.org/wiki/Tung_Chung_line" style="background-color:#F7943E;">东涌</a>
+<a href="https://en.wikipedia.org/wiki/Tsuen_Wan_line" style="background-color:#ED1D24;">TWL</a>
+<a href="https://en.wikipedia.org/wiki/Kwun_Tong_line" style="background-color:#00AB4E;">KTL</a>
+<a href="https://en.wikipedia.org/wiki/Island_line_(MTR)" style="background-color:#007DC5;">ISL</a>
+<a href="https://en.wikipedia.org/wiki/East_Rail_line" style="background-color:#53B7E8;">EAL</a>
+<a href="https://en.wikipedia.org/wiki/Tuen_Ma_line" style="background-color:#923011;">TML</a>
+<a href="https://en.wikipedia.org/wiki/South_Island_line" style="background-color:#BAC429;">SIL</a>
+<a href="https://en.wikipedia.org/wiki/Tung_Chung_line" style="background-color:#F7943E;">TCL</a>
 </div>
 
 ### Shanghai (6)
@@ -143,7 +143,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_8_(Shanghai_Metro)" style="background-color:#0072ce;">8</a>
 <a href="https://en.wikipedia.org/wiki/Line_10_(Shanghai_Metro)" style="background-color:#c6a0cf;">10</a>
 <a href="https://en.wikipedia.org/wiki/Line_11_(Shanghai_Metro)" style="background-color:#8e2c24;">11</a>
-<a href="https://en.wikipedia.org/wiki/Shanghai_maglev_train" style="background-color:#009b77;">磁浮</a>
+<a href="https://en.wikipedia.org/wiki/Shanghai_maglev_train" style="background-color:#009b77;">Maglev</a>
 </div>
 
 ### Changsha (6)
