@@ -29,8 +29,8 @@ main:
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "CV"
-    url: /files/cv.pdf
+  - title: "CV (暂未开放)"
+    url: /cv-json/
 
   - title: "Hobbies"
     url: /hobbies/
