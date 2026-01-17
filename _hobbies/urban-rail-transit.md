@@ -202,9 +202,9 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 ### Changchun (4)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Changchun_Rail_Transit)" style="background-color:#e31837;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Changchun_Rail_Transit)" style="background-color:#00a650;">2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Changchun_Rail_Transit)" style="background-color:#0072ce;">3</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Changchun_Rail_Transit)" style="background-color:#f37f00;">4</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Changchun_Rail_Transit)" style="background-color:#0072ce;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Changchun_Rail_Transit)" style="background-color:#00a650;">3</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Changchun_Rail_Transit)" style="background-color:#7D4698;">4</a>
 </div>
 
 ### Chongqing (3)
