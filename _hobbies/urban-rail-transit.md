@@ -5,6 +5,8 @@ permalink: /hobbies/urban-rail-transit
 date: 2026-01-17
 ---
 
+<a href="/hobbies/" style="display: inline-block; margin-bottom: 1em; color: #8B0000;"><i class="fas fa-arrow-left"></i> Back to Hobbies</a>
+
 I am an urban rail transit enthusiast with a long-standing interest in studying network planning, passenger flow patterns, and line construction developments across various cities.
 
 ## Maximum Daily Passenger Flow of Urban Rail Transit Systems in China

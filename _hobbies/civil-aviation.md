@@ -5,6 +5,8 @@ permalink: /hobbies/civil-aviation
 date: 2026-01-17
 ---
 
+<a href="/hobbies/" style="display: inline-block; margin-bottom: 1em; color: #8B0000;"><i class="fas fa-arrow-left"></i> Back to Hobbies</a>
+
 I am passionate about civil aviation and enjoy tracking flights, studying airline operations, and visiting airports around the world.
 
 ## Airports I Have Visited
