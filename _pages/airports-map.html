@@ -1,10 +1,7 @@
 ---
-layout: archive
-title: "Airports Map"
+layout: null
 permalink: /hobbies/airports-map/
-author_profile: false
 ---
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,13 +13,20 @@ author_profile: false
         #map { height: 600px; width: 100%; }
     </style>
 </head>
-<body>
+<body style="margin:0; padding:0;">
     <div id="map"></div>
     <script>
-        var map = L.map('map').setView([35, 110], 3);
+        var map = L.map('map', {
+            center: [35, 110],
+            zoom: 3,
+            worldCopyJump: false,
+            maxBounds: [[-90, -180], [90, 180]],
+            maxBoundsViscosity: 1.0
+        });
         
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
+            attribution: '© OpenStreetMap contributors',
+            noWrap: true
         }).addTo(map);
 
         var airports = [
