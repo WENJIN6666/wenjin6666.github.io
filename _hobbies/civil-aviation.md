@@ -11,4 +11,4 @@ I am passionate about civil aviation and enjoy tracking flights, studying airlin
 
 I have visited **29 airports** across 5 countries/regions. Click the markers on the map below to see airport details.
 
-<iframe src="/hobbies/airports-map/" width="100%" height="620" frameborder="0" style="border:0;"></iframe>
+<iframe src="/assets/maps/airports.html" width="100%" height="620" frameborder="0" style="border:0;"></iframe>
