@@ -67,12 +67,12 @@
 }
 
 .masthead__menu-item.selected a {
-  color: var(--global-text-color);
+  color: var(--global-masthead-link-color);
   font-weight: 700;
-  border-bottom: 2px solid var(--global-text-color);
+  border-bottom: 2px solid var(--global-masthead-link-color);
 }
 
 .masthead__menu-item.selected a:hover {
-  color: var(--global-text-color);
-  border-bottom: 2px solid var(--global-text-color);
+  color: var(--global-masthead-link-color-hover);
+  border-bottom: 2px solid var(--global-masthead-link-color-hover);
 }
