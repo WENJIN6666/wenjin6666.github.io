@@ -12,5 +12,6 @@ redirect_from:
 {% include cv-template.html %}
 
 <div class="cv-download-links">
-  <button class="btn btn--primary" disabled style="cursor:not-allowed;opacity:0.7;">暂未开放查看功能</button>
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
+  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
 </div>
