@@ -241,6 +241,9 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+  hobbies:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -310,6 +313,14 @@ defaults:
   - scope:
       path: ""
       type: news
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _hobbies
+  - scope:
+      path: ""
+      type: hobbies
     values:
       layout: single
       author_profile: true
