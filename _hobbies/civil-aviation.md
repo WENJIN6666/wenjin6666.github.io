@@ -19,7 +19,7 @@ I have visited **29 airports** across 5 countries/regions. Click the markers on 
 
 ## Aircraft Types I Have Flown
 
-I have flown on **10 different aircraft types** from 4 manufacturers. Click on each aircraft type to see the flights I've taken.
+I have flown on **11 different aircraft types** from 4 manufacturers. Click on each aircraft type to see the flights I've taken.
 
 <style>
 .aircraft-section {
@@ -185,11 +185,18 @@ I have flown on **10 different aircraft types** from 4 manufacturers. Click on e
       </div>
     </details>
     <details class="aircraft-card">
-      <summary>A330 (2 flights)</summary>
+      <summary>A330-200 (1 flight)</summary>
+      <div class="flight-list">
+        <ul>
+          <li>MU545 PVG→SIN</li>
+        </ul>
+      </div>
+    </details>
+    <details class="aircraft-card">
+      <summary>A330-300 (1 flight)</summary>
       <div class="flight-list">
         <ul>
           <li>8L9616 TNA→CTU</li>
-          <li>MU545 PVG→SIN</li>
         </ul>
       </div>
     </details>
