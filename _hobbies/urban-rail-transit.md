@@ -168,18 +168,18 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Tianjin_Metro)" style="background-color:#E31837;">1</a>
 <a href="https://en.wikipedia.org/wiki/Line_2_(Tianjin_Metro)" style="background-color:#FFD700;">2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Tianjin_Metro)" style="background-color:#87CEEB;">3</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Tianjin_Metro)" style="background-color:#00ADEF;">3</a>
 <a href="https://en.wikipedia.org/wiki/Line_5_(Tianjin_Metro)" style="background-color:#FF8C00;">5</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Tianjin_Metro)" style="background-color:#FF00FF;">6</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Tianjin_Metro)" style="background-color:#800080;">6</a>
 </div>
 
 ### Shenyang (5)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Shenyang_Metro)" style="background-color:#e31837;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Shenyang_Metro)" style="background-color:#0072ce;">2</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Shenyang_Metro)" style="background-color:#00a650;">4</a>
-<a href="https://en.wikipedia.org/wiki/Line_9_(Shenyang_Metro)" style="background-color:#f37f00;">9</a>
-<a href="https://en.wikipedia.org/wiki/Line_10_(Shenyang_Metro)" style="background-color:#7d4698;">10</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Shenyang_Metro)" style="background-color:#FF8C00;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Shenyang_Metro)" style="background-color:#800080;">4</a>
+<a href="https://en.wikipedia.org/wiki/Line_9_(Shenyang_Metro)" style="background-color:#0000FF;">9</a>
+<a href="https://en.wikipedia.org/wiki/Line_10_(Shenyang_Metro)" style="background-color:#008000;">10</a>
 </div>
 
 ### Dalian (5)
@@ -193,10 +193,10 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ### Qingdao (4)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Qingdao_Metro)" style="background-color:#e31837;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Qingdao_Metro)" style="background-color:#0072ce;">2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Qingdao_Metro)" style="background-color:#f9e700;">3</a>
-<a href="https://en.wikipedia.org/wiki/Line_13_(Qingdao_Metro)" style="background-color:#f37f00;">13</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Qingdao_Metro)" style="background-color:#EAAA00;">1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Qingdao_Metro)" style="background-color:#AF272F;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Qingdao_Metro)" style="background-color:#0057B8;">3</a>
+<a href="https://en.wikipedia.org/wiki/Line_13_(Qingdao_Metro)" style="background-color:#00AB84;">WCL</a>
 </div>
 
 ### Changchun (4)
@@ -211,7 +211,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Chongqing_Rail_Transit)" style="background-color:#e31837;">1</a>
 <a href="https://en.wikipedia.org/wiki/Line_2_(Chongqing_Rail_Transit)" style="background-color:#00a650;">2</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Chongqing_Rail_Transit)" style="background-color:#d60080;">6</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Chongqing_Rail_Transit)" style="background-color:#FF69B4;">6</a>
 </div>
 
 ### Harbin (3)
@@ -231,8 +231,8 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 ### Xiamen (3)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Xiamen_Metro)" style="background-color:#f37f00;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Xiamen_Metro)" style="background-color:#0072ce;">2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Xiamen_Metro)" style="background-color:#97d700;">3</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Xiamen_Metro)" style="background-color:#008000;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Xiamen_Metro)" style="background-color:#0000FF;">3</a>
 </div>
 
 ### Hangzhou (2)
