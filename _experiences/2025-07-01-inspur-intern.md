@@ -5,7 +5,7 @@ type: "Industry"
 permalink: /experiences/inspur-intern
 date: 2025-07-01
 location: "Jinan, China"
-venue: "Inspur"
+venue: "<a href='https://www.inspur.com/' target='_blank'>Inspur</a>"
 ---
 
 - Developed a forecasting model based on sequence decomposition methodology to predict server load spikes from live operational data
