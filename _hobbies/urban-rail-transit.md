@@ -29,3 +29,15 @@ Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 7, Line 8, Line 9, Line 10,
 
 ### Chengdu
 Line 1, Line 2, Line 3, Line 4, Line 5, Line 7, Line 10, Line 13, Line 18
+
+### Hong Kong
+Tsuen Wan Line, Kwun Tong Line, Island Line, East Rail Line, Tuen Ma Line, South Island Line, Tung Chung Line
+
+### Chongqing
+Line 1, Line 2, Line 6
+
+### Xi'an
+Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 14, Line 16
+
+### Wuhan
+Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 7, Line 8, Line 16
