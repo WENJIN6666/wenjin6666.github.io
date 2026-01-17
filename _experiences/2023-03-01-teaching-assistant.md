@@ -9,4 +9,5 @@ venue: "<a href='https://www.dlut.edu.cn/' target='_blank'>Dalian University of 
 ---
 
 - Course: Microcomputer Installation and Commissioning
+- Instructor: [Yingjie Zhang](https://faculty.dlut.edu.cn/yjzhangdlut/zh_CN/index.htm)
 - Teaching period: Mar 2023 - Mar 2026
