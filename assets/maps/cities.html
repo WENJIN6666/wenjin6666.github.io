@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        html, body { margin: 0; padding: 0; height: 100%; }
+        #map { height: 100%; width: 100%; }
+        .city-marker {
+            background-color: #8B0000;
+            border: 2px solid white;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        var map = L.map('map', {
+            center: [35, 105],
+            zoom: 4,
+            worldCopyJump: false,
+            maxBounds: [[-90, -180], [90, 180]],
+            maxBoundsViscosity: 1.0
+        });
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            noWrap: true
+        }).addTo(map);
+
+        var cities = [
+            // Shandong Province
+            {name: "东营 Dongying", country: "China", lat: 37.4346, lng: 118.6747},
+            {name: "济南 Jinan", country: "China", lat: 36.6512, lng: 116.9972},
+            {name: "青岛 Qingdao", country: "China", lat: 36.0671, lng: 120.3826},
+            {name: "淄博 Zibo", country: "China", lat: 36.8131, lng: 118.0548},
+            {name: "潍坊 Weifang", country: "China", lat: 36.7069, lng: 119.1619},
+            {name: "德州 Dezhou", country: "China", lat: 37.4513, lng: 116.3575},
+            {name: "威海 Weihai", country: "China", lat: 37.5097, lng: 122.1206},
+            {name: "临沂 Linyi", country: "China", lat: 35.1041, lng: 118.3564},
+            {name: "济宁 Jining", country: "China", lat: 35.4148, lng: 116.5871},
+            {name: "泰安 Tai'an", country: "China", lat: 36.1853, lng: 117.1201},
+            {name: "烟台 Yantai", country: "China", lat: 37.4638, lng: 121.4479},
+            {name: "日照 Rizhao", country: "China", lat: 35.4164, lng: 119.5269},
+            // Northeast China
+            {name: "大连 Dalian", country: "China", lat: 38.9140, lng: 121.6147},
+            {name: "沈阳 Shenyang", country: "China", lat: 41.8057, lng: 123.4315},
+            {name: "哈尔滨 Harbin", country: "China", lat: 45.8038, lng: 126.5350},
+            {name: "长春 Changchun", country: "China", lat: 43.8171, lng: 125.3235},
+            // North China
+            {name: "北京 Beijing", country: "China", lat: 39.9042, lng: 116.4074},
+            {name: "天津 Tianjin", country: "China", lat: 39.0842, lng: 117.2009},
+            {name: "赤峰 Chifeng", country: "China", lat: 42.2684, lng: 118.9637},
+            {name: "太原 Taiyuan", country: "China", lat: 37.8706, lng: 112.5489},
+            {name: "呼和浩特 Hohhot", country: "China", lat: 40.8420, lng: 111.7490},
+            {name: "运城 Yuncheng", country: "China", lat: 35.0267, lng: 111.0070},
+            // East China
+            {name: "上海 Shanghai", country: "China", lat: 31.2304, lng: 121.4737},
+            {name: "南京 Nanjing", country: "China", lat: 32.0603, lng: 118.7969},
+            {name: "杭州 Hangzhou", country: "China", lat: 30.2741, lng: 120.1551},
+            {name: "苏州 Suzhou", country: "China", lat: 31.2989, lng: 120.5853},
+            {name: "嘉兴 Jiaxing", country: "China", lat: 30.7522, lng: 120.7555},
+            {name: "合肥 Hefei", country: "China", lat: 31.8206, lng: 117.2272},
+            {name: "厦门 Xiamen", country: "China", lat: 24.4798, lng: 118.0894},
+            {name: "福州 Fuzhou", country: "China", lat: 26.0745, lng: 119.2965},
+            {name: "上饶 Shangrao", country: "China", lat: 28.4551, lng: 117.9432},
+            {name: "徐州 Xuzhou", country: "China", lat: 34.2044, lng: 117.2859},
+            // Central China
+            {name: "武汉 Wuhan", country: "China", lat: 30.5928, lng: 114.3055},
+            {name: "长沙 Changsha", country: "China", lat: 28.2282, lng: 112.9388},
+            {name: "焦作 Jiaozuo", country: "China", lat: 35.2159, lng: 113.2418},
+            // West China
+            {name: "成都 Chengdu", country: "China", lat: 30.5728, lng: 104.0668},
+            {name: "重庆 Chongqing", country: "China", lat: 29.4316, lng: 106.9123},
+            {name: "宜昌 Yichang", country: "China", lat: 30.6918, lng: 111.2864},
+            {name: "西安 Xi'an", country: "China", lat: 34.3416, lng: 108.9398},
+            // South China
+            {name: "广州 Guangzhou", country: "China", lat: 23.1291, lng: 113.2644},
+            {name: "佛山 Foshan", country: "China", lat: 23.0218, lng: 113.1219},
+            {name: "湛江 Zhanjiang", country: "China", lat: 21.2707, lng: 110.3594},
+            {name: "海口 Haikou", country: "China", lat: 20.0440, lng: 110.1999},
+            {name: "三亚 Sanya", country: "China", lat: 18.2528, lng: 109.5119},
+            {name: "深圳 Shenzhen", country: "China", lat: 22.5431, lng: 114.0579},
+            {name: "香港 Hong Kong", country: "China", lat: 22.3193, lng: 114.1694},
+            // Singapore
+            {name: "新加坡 Singapore", country: "Singapore", lat: 1.3521, lng: 103.8198},
+            // Japan
+            {name: "大阪 Osaka", country: "Japan", lat: 34.6937, lng: 135.5023},
+            {name: "京都 Kyoto", country: "Japan", lat: 35.0116, lng: 135.7681},
+            {name: "奈良 Nara", country: "Japan", lat: 34.6851, lng: 135.8048},
+            {name: "神户 Kobe", country: "Japan", lat: 34.6901, lng: 135.1956},
+            // South Korea
+            {name: "首尔 Seoul", country: "South Korea", lat: 37.5665, lng: 126.9780},
+            // USA
+            {name: "洛杉矶 Los Angeles", country: "USA", lat: 34.0522, lng: -118.2437},
+            {name: "旧金山 San Francisco", country: "USA", lat: 37.7749, lng: -122.4194},
+            {name: "纽约 New York", country: "USA", lat: 40.7128, lng: -74.0060},
+            {name: "华盛顿 Washington D.C.", country: "USA", lat: 38.9072, lng: -77.0369}
+        ];
+
+        var cityIcon = L.divIcon({
+            className: 'city-marker',
+            iconSize: [12, 12],
+            iconAnchor: [6, 6],
+            popupAnchor: [0, -8]
+        });
+
+        cities.forEach(function(city) {
+            L.marker([city.lat, city.lng], {icon: cityIcon})
+                .addTo(map)
+                .bindPopup("<b>" + city.name + "</b><br>" + city.country);
+        });
+    </script>
+</body>
+</html>
