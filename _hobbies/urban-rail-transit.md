@@ -58,7 +58,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_12_(Shenzhen_Metro)" style="background-color:#a192b2;">12</a>
 <a href="https://en.wikipedia.org/wiki/Line_13_(Shenzhen_Metro)" style="background-color:#de7c00;">13</a>
 <a href="https://en.wikipedia.org/wiki/Line_14_(Shenzhen_Metro)" style="background-color:#f2c75c;">14</a>
-<a href="https://en.wikipedia.org/wiki/Line_16_(Shenzhen_Metro)" style="background-color:#bbbbbb;">16</a>
+<a href="https://en.wikipedia.org/wiki/Line_16_(Shenzhen_Metro)" style="background-color:#4B0082;">16</a>
 </div>
 
 ### Guangzhou (14)
@@ -70,13 +70,13 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_6_(Guangzhou_Metro)" style="background-color:#80225f;">6</a>
 <a href="https://en.wikipedia.org/wiki/Line_7_(Guangzhou_Metro)" style="background-color:#90d247;">7</a>
 <a href="https://en.wikipedia.org/wiki/Line_8_(Guangzhou_Metro)" style="background-color:#008b83;">8</a>
-<a href="https://en.wikipedia.org/wiki/Line_11_(Guangzhou_Metro)" style="background-color:#7a2a38;">11</a>
+<a href="https://en.wikipedia.org/wiki/Line_11_(Guangzhou_Metro)" style="background-color:#F5BB17;">11</a>
 <a href="https://en.wikipedia.org/wiki/Line_13_(Guangzhou_Metro)" style="background-color:#8a9a57;">13</a>
-<a href="https://en.wikipedia.org/wiki/Line_18_(Guangzhou_Metro)" style="background-color:#eb9d3f;">18</a>
-<a href="https://en.wikipedia.org/wiki/Line_21_(Guangzhou_Metro)" style="background-color:#8b4c38;">21</a>
-<a href="https://en.wikipedia.org/wiki/Line_22_(Guangzhou_Metro)" style="background-color:#eb9d3f;">22</a>
+<a href="https://en.wikipedia.org/wiki/Line_18_(Guangzhou_Metro)" style="background-color:#364C9C;">18</a>
+<a href="https://en.wikipedia.org/wiki/Line_21_(Guangzhou_Metro)" style="background-color:#230B55;">21</a>
+<a href="https://en.wikipedia.org/wiki/Line_22_(Guangzhou_Metro)" style="background-color:#D14D23;">22</a>
 <a href="https://en.wikipedia.org/wiki/Zhujiang_New_Town_APM" style="background-color:#00a5df;">APM</a>
-<a href="https://en.wikipedia.org/wiki/Guangfo_Line" style="background-color:#f0d023;">GF</a>
+<a href="https://en.wikipedia.org/wiki/Guangfo_Line" style="background-color:#BBD80A;">GF</a>
 </div>
 
 ### Beijing (12)
