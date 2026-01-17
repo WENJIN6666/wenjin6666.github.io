@@ -4,7 +4,7 @@ collection: experiences
 type: "Industry"
 permalink: /experiences/inspur-intern
 date: 2025-07-01
-location: "China"
+location: "Jinan, China"
 venue: "Inspur"
 ---
 
