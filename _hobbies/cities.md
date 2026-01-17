@@ -11,7 +11,7 @@ I enjoy exploring different cities and experiencing their unique cultures, archi
 
 ## Cities I Have Visited
 
-I have visited **56 cities** across 5 countries/regions. Click the markers on the map below to see city details.
+I have visited **57 cities** across 5 countries/regions. Click the markers on the map below to see city details.
 
 <iframe src="/assets/maps/cities.html" width="100%" height="620" frameborder="0" style="border:0;"></iframe>
 
@@ -43,7 +43,7 @@ I have visited **56 cities** across 5 countries/regions. Click the markers on th
 </style>
 
 <div class="country-section">
-  <h3>🇨🇳 China (46 cities)</h3>
+  <h3>🇨🇳 China (47 cities)</h3>
   <div class="city-tags">
     <span class="city-tag">东营</span>
     <span class="city-tag">济南</span>
@@ -84,6 +84,7 @@ I have visited **56 cities** across 5 countries/regions. Click the markers on th
     <span class="city-tag">重庆</span>
     <span class="city-tag">宜昌</span>
     <span class="city-tag">西安</span>
+    <span class="city-tag">兰州</span>
     <span class="city-tag">广州</span>
     <span class="city-tag">佛山</span>
     <span class="city-tag">湛江</span>
