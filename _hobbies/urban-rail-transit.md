@@ -85,12 +85,12 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_2_(Beijing_Subway)" style="background-color:#004B87;">2</a>
 <a href="https://en.wikipedia.org/wiki/Line_3_(Beijing_Subway)" style="background-color:#E20035;">3</a>
 <a href="https://en.wikipedia.org/wiki/Line_4_(Beijing_Subway)" style="background-color:#008C95;">4</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Beijing_Subway)" style="background-color:#880038;">5</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Beijing_Subway)" style="background-color:#8C1C4B;">5</a>
 <a href="https://en.wikipedia.org/wiki/Line_6_(Beijing_Subway)" style="background-color:#D09833;">6</a>
 <a href="https://en.wikipedia.org/wiki/Line_8_(Beijing_Subway)" style="background-color:#009b6b;">8</a>
 <a href="https://en.wikipedia.org/wiki/Line_10_(Beijing_Subway)" style="background-color:#009bc0;">10</a>
 <a href="https://en.wikipedia.org/wiki/Line_13_(Beijing_Subway)" style="background-color:#FBBF00;">13</a>
-<a href="https://en.wikipedia.org/wiki/Line_14_(Beijing_Subway)" style="background-color:#C74000;">14</a>
+<a href="https://en.wikipedia.org/wiki/Line_14_(Beijing_Subway)" style="background-color:#C9A9B6;">14</a>
 <a href="https://en.wikipedia.org/wiki/Line_15_(Beijing_Subway)" style="background-color:#6A357C;">15</a>
 <a href="https://en.wikipedia.org/wiki/Beijing_Capital_Airport_Express" style="background-color:#9E9EAC;">CAE</a>
 </div>
@@ -104,8 +104,8 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_5_(Chengdu_Metro)" style="background-color:#7C4C9D;">5</a>
 <a href="https://en.wikipedia.org/wiki/Line_7_(Chengdu_Metro)" style="background-color:#00A0E2;">7</a>
 <a href="https://en.wikipedia.org/wiki/Line_10_(Chengdu_Metro)" style="background-color:#003DA5;">10</a>
-<a href="https://en.wikipedia.org/wiki/Line_13_(Chengdu_Metro)" style="background-color:#f47e00;">13</a>
-<a href="https://en.wikipedia.org/wiki/Line_18_(Chengdu_Metro)" style="background-color:#007D7B;">18</a>
+<a href="https://en.wikipedia.org/wiki/Line_13_(Chengdu_Metro)" style="background-color:#9B59B6;">13</a>
+<a href="https://en.wikipedia.org/wiki/Line_18_(Chengdu_Metro)" style="background-color:#2A3E8E;">18</a>
 </div>
 
 ### Wuhan (9)
@@ -114,7 +114,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_2_(Wuhan_Metro)" style="background-color:#E86EA4;">2</a>
 <a href="https://en.wikipedia.org/wiki/Line_3_(Wuhan_Metro)" style="background-color:#D6A461;">3</a>
 <a href="https://en.wikipedia.org/wiki/Line_4_(Wuhan_Metro)" style="background-color:#A0CF67;">4</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Wuhan_Metro)" style="background-color:#F08080;">5</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Wuhan_Metro)" style="background-color:#B80045;">5</a>
 <a href="https://en.wikipedia.org/wiki/Line_6_(Wuhan_Metro)" style="background-color:#00A650;">6</a>
 <a href="https://en.wikipedia.org/wiki/Line_7_(Wuhan_Metro)" style="background-color:#F58220;">7</a>
 <a href="https://en.wikipedia.org/wiki/Line_8_(Wuhan_Metro)" style="background-color:#8C8C8C;">8</a>
@@ -126,11 +126,11 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_1_(Xi%27an_Metro)" style="background-color:#0072ce;">1</a>
 <a href="https://en.wikipedia.org/wiki/Line_2_(Xi%27an_Metro)" style="background-color:#e31837;">2</a>
 <a href="https://en.wikipedia.org/wiki/Line_3_(Xi%27an_Metro)" style="background-color:#d60080;">3</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Xi%27an_Metro)" style="background-color:#00a650;">4</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Xi%27an_Metro)" style="background-color:#00BFFF;">4</a>
 <a href="https://en.wikipedia.org/wiki/Line_5_(Xi%27an_Metro)" style="background-color:#9ACD32;">5</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Xi%27an_Metro)" style="background-color:#0047AB;">6</a>
-<a href="https://en.wikipedia.org/wiki/Line_14_(Xi%27an_Metro)" style="background-color:#7d4698;">14</a>
-<a href="https://en.wikipedia.org/wiki/Line_16_(Xi%27an_Metro)" style="background-color:#003d7e;">16</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Xi%27an_Metro)" style="background-color:#0033A0;">6</a>
+<a href="https://en.wikipedia.org/wiki/Line_14_(Xi%27an_Metro)" style="background-color:#00CED1;">14</a>
+<a href="https://en.wikipedia.org/wiki/Line_16_(Xi%27an_Metro)" style="background-color:#9ACD32;">16</a>
 </div>
 
 ### Hong Kong (7)
