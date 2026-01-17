@@ -5,4 +5,10 @@ permalink: /hobbies/urban-rail-transit
 date: 2026-01-17
 ---
 
-Content coming soon...
+I am an urban rail transit enthusiast with a long-standing interest in studying network planning, passenger flow patterns, and line construction developments across various cities.
+
+## Maximum Daily Ridership of Urban Rail Transit Systems in China
+
+![Maximum Daily Ridership of Urban Rail Transit Systems in China](/files/metromaxdata.jpg)
+
+*Image source: [Weibo @MetroMax](https://weibo.com/1005052728041997?profile_ftype=1)*
