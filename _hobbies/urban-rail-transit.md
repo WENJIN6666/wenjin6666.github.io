@@ -130,7 +130,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_5_(Xi%27an_Metro)" style="background-color:#9ACD32;">5</a>
 <a href="https://en.wikipedia.org/wiki/Line_6_(Xi%27an_Metro)" style="background-color:#0033A0;">6</a>
 <a href="https://en.wikipedia.org/wiki/Line_14_(Xi%27an_Metro)" style="background-color:#00CED1;">14</a>
-<a href="https://en.wikipedia.org/wiki/Line_16_(Xi%27an_Metro)" style="background-color:#9ACD32;">16</a>
+<a href="https://en.wikipedia.org/wiki/Line_16_(Xi%27an_Metro)" style="background-color:#F7943E;">16</a>
 </div>
 
 ### Hong Kong (7)
@@ -224,7 +224,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 ### Jinan (3)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Jinan_Metro)" style="background-color:#7d4698;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Jinan_Metro)" style="background-color:#f37f00;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Jinan_Metro)" style="background-color:#f9e700;">2</a>
 <a href="https://en.wikipedia.org/wiki/Line_3_(Jinan_Metro)" style="background-color:#0072ce;">3</a>
 </div>
 
@@ -238,13 +238,13 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 ### Hangzhou (2)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Hangzhou_Metro)" style="background-color:#e31837;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Hangzhou_Metro)" style="background-color:#00a650;">4</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Hangzhou_Metro)" style="background-color:#97d700;">4</a>
 </div>
 
 ### Fuzhou (2)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Fuzhou_Metro)" style="background-color:#e31837;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Fuzhou_Metro)" style="background-color:#00a650;">4</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Fuzhou_Metro)" style="background-color:#f37f00;">4</a>
 </div>
 
 ### Hohhot (2)
@@ -255,13 +255,13 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ### Taiyuan (2)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Taiyuan_Metro)" style="background-color:#e31837;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Taiyuan_Metro)" style="background-color:#0072ce;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Taiyuan_Metro)" style="background-color:#0072ce;">1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Taiyuan_Metro)" style="background-color:#e31837;">2</a>
 </div>
 
 ### Foshan (2)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_2_(Foshan_Metro)" style="background-color:#d60080;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Foshan_Metro)" style="background-color:#e31837;">2</a>
 <a href="https://en.wikipedia.org/wiki/Line_3_(Foshan_Metro)" style="background-color:#0072ce;">3</a>
 </div>
 
