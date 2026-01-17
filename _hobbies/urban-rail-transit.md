@@ -85,7 +85,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_2_(Beijing_Subway)" style="background-color:#004B87;">2</a>
 <a href="https://en.wikipedia.org/wiki/Line_3_(Beijing_Subway)" style="background-color:#E20035;">3</a>
 <a href="https://en.wikipedia.org/wiki/Line_4_(Beijing_Subway)" style="background-color:#008C95;">4</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Beijing_Subway)" style="background-color:#8C1C4B;">5</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Beijing_Subway)" style="background-color:#C724B1;">5</a>
 <a href="https://en.wikipedia.org/wiki/Line_6_(Beijing_Subway)" style="background-color:#D09833;">6</a>
 <a href="https://en.wikipedia.org/wiki/Line_8_(Beijing_Subway)" style="background-color:#009b6b;">8</a>
 <a href="https://en.wikipedia.org/wiki/Line_10_(Beijing_Subway)" style="background-color:#009bc0;">10</a>
@@ -104,7 +104,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_5_(Chengdu_Metro)" style="background-color:#7C4C9D;">5</a>
 <a href="https://en.wikipedia.org/wiki/Line_7_(Chengdu_Metro)" style="background-color:#00A0E2;">7</a>
 <a href="https://en.wikipedia.org/wiki/Line_10_(Chengdu_Metro)" style="background-color:#003DA5;">10</a>
-<a href="https://en.wikipedia.org/wiki/Line_13_(Chengdu_Metro)" style="background-color:#9B59B6;">13</a>
+<a href="https://en.wikipedia.org/wiki/Line_13_(Chengdu_Metro)" style="background-color:#D09833;">13</a>
 <a href="https://en.wikipedia.org/wiki/Line_18_(Chengdu_Metro)" style="background-color:#2A3E8E;">18</a>
 </div>
 
