@@ -1,0 +1,18 @@
+{% include base_path %}
+
+{% if page.prev_page or page.next_page %}
+  <nav class="pagination">
+    {% if page.prev_page %}
+      <a href="{{ base_path }}{{ page.prev_page.url }}" class="pagination--pager">
+        <span style="display: block; font-size: 0.8em; color: #888;">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span>
+        <span>{{ page.prev_page.title }}</span>
+      </a>
+    {% endif %}
+    {% if page.next_page %}
+      <a href="{{ base_path }}{{ page.next_page.url }}" class="pagination--pager">
+        <span style="display: block; font-size: 0.8em; color: #888;">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</span>
+        <span>{{ page.next_page.title }}</span>
+      </a>
+    {% endif %}
+  </nav>
+{% endif %}

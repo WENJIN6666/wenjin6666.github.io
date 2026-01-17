@@ -3,6 +3,12 @@ title: "Urban Rail Transit Systems"
 collection: hobbies
 permalink: /hobbies/urban-rail-transit
 date: 2026-01-17
+prev_page:
+  url: /hobbies/civil-aviation
+  title: "Aviation"
+next_page:
+  url: /hobbies/cities
+  title: "Cities"
 ---
 
 <a href="/hobbies/" style="display: inline-block; margin-bottom: 1em; color: #8B0000;"><i class="fas fa-arrow-left"></i> Back to Hobbies</a>
