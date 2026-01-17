@@ -23,7 +23,6 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ## Lines I Have Ridden in China
 
-*I am delighted to see how rail transit systems have made people's lives more convenient.*
 
 <style>
 .metro-lines { line-height: 2.2; }
