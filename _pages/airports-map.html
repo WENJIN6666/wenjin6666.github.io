@@ -1,0 +1,67 @@
+---
+layout: archive
+title: "Airports Map"
+permalink: /hobbies/airports-map/
+author_profile: false
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        #map { height: 600px; width: 100%; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        var map = L.map('map').setView([35, 110], 3);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        var airports = [
+            {code: "CAN", name: "Guangzhou Baiyun", lat: 23.3924, lng: 113.2988},
+            {code: "CSX", name: "Changsha Huanghua", lat: 28.1892, lng: 113.2200},
+            {code: "CTU", name: "Chengdu Shuangliu", lat: 30.5785, lng: 103.9471},
+            {code: "DCA", name: "Washington Reagan", lat: 38.8512, lng: -77.0402},
+            {code: "DLC", name: "Dalian Zhoushuizi", lat: 38.9657, lng: 121.5386},
+            {code: "DOY", name: "Dongying Shengli", lat: 37.5086, lng: 118.7889},
+            {code: "HAK", name: "Haikou Meilan", lat: 19.9349, lng: 110.4590},
+            {code: "HET", name: "Hohhot Baita", lat: 40.8514, lng: 111.8242},
+            {code: "ICN", name: "Seoul Incheon", lat: 37.4602, lng: 126.4407},
+            {code: "JFK", name: "New York JFK", lat: 40.6413, lng: -73.7781},
+            {code: "KIX", name: "Osaka Kansai", lat: 34.4347, lng: 135.2441},
+            {code: "LAX", name: "Los Angeles", lat: 33.9416, lng: -118.4085},
+            {code: "LHW", name: "Lanzhou Zhongchuan", lat: 36.5152, lng: 103.6202},
+            {code: "PEK", name: "Beijing Capital", lat: 40.0799, lng: 116.6031},
+            {code: "PVG", name: "Shanghai Pudong", lat: 31.1443, lng: 121.8083},
+            {code: "SFO", name: "San Francisco", lat: 37.6213, lng: -122.3790},
+            {code: "SHA", name: "Shanghai Hongqiao", lat: 31.1979, lng: 121.3363},
+            {code: "SHE", name: "Shenyang Taoxian", lat: 41.6398, lng: 123.4834},
+            {code: "SIN", name: "Singapore Changi", lat: 1.3644, lng: 103.9915},
+            {code: "SQD", name: "Sanming Shaxian", lat: 26.4263, lng: 117.8336},
+            {code: "SZX", name: "Shenzhen Bao'an", lat: 22.6393, lng: 113.8107},
+            {code: "TAO", name: "Qingdao Jiaodong", lat: 36.2661, lng: 120.3744},
+            {code: "TFU", name: "Chengdu Tianfu", lat: 30.3137, lng: 104.4451},
+            {code: "TNA", name: "Jinan Yaoqiang", lat: 36.8572, lng: 117.2156},
+            {code: "TSN", name: "Tianjin Binhai", lat: 39.1244, lng: 117.3462},
+            {code: "TYN", name: "Taiyuan Wusu", lat: 37.7469, lng: 112.6283},
+            {code: "WUH", name: "Wuhan Tianhe", lat: 30.7838, lng: 114.2081},
+            {code: "XMN", name: "Xiamen Gaoqi", lat: 24.5440, lng: 118.1277},
+            {code: "YCU", name: "Yuncheng Zhangxiao", lat: 35.1164, lng: 111.0314}
+        ];
+
+        airports.forEach(function(airport) {
+            L.marker([airport.lat, airport.lng])
+                .addTo(map)
+                .bindPopup("<b>" + airport.code + "</b><br>" + airport.name);
+        });
+    </script>
+</body>
+</html>
