@@ -15,6 +15,8 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ## Lines I Have Ridden in China
 
+*I am delighted to see how rail transit systems have made people's lives more convenient.*
+
 ### Shenzhen (15)
 Line 1, Line 2, Line 3, Line 4, Line 5, Line 6, Line 7, Line 8, Line 9, Line 10, Line 11, Line 12, Line 13, Line 14, Line 16
 
