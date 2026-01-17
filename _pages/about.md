@@ -20,7 +20,7 @@ My research interests lie in **deep learning** and **scientific machine learning
 
 ## Education
 
-- **B.Eng. in Computer Science**, Dalian University of Technology, Sep 2022 - Present
+- **B.Eng. in Computer Science**, Dalian University of Technology <img src="/images/logos/dutlogo.png" alt="DUT" style="height: 1em; vertical-align: middle;">, Sep 2022 - Present
 
 ## Skills
 
