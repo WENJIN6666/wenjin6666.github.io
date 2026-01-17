@@ -17,7 +17,7 @@ I have visited **29 airports** across 5 countries/regions. Click the markers on 
 
 ## Aircraft Types I Have Flown
 
-I have flown on **13 different aircraft types** from 4 manufacturers.
+I have flown on **12 different aircraft types** from 4 manufacturers.
 
 <style>
 .aircraft-section {
@@ -53,41 +53,47 @@ I have flown on **13 different aircraft types** from 4 manufacturers.
   text-align: center;
   font-weight: 500;
 }
+.aircraft-card a {
+  text-decoration: none;
+  color: inherit;
+}
+.aircraft-card a:hover {
+  color: #0066cc;
+}
 </style>
 
 <div class="aircraft-section">
   <h3><span class="manufacturer-logo boeing-logo">BOEING</span> Boeing</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card">B737-800</div>
-    <div class="aircraft-card">B737 MAX 8</div>
-    <div class="aircraft-card">B757-200</div>
-    <div class="aircraft-card">B777-300ER</div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Boeing_737_Next_Generation" target="_blank">B737-800</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Boeing_737_MAX" target="_blank">B737 MAX 8</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Boeing_757" target="_blank">B757-200</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Boeing_777" target="_blank">B777-300ER</a></div>
   </div>
 </div>
 
 <div class="aircraft-section">
   <h3><span class="manufacturer-logo airbus-logo">AIRBUS</span> Airbus</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card">A320-200</div>
-    <div class="aircraft-card">A320neo</div>
-    <div class="aircraft-card">A321-200</div>
-    <div class="aircraft-card">A330-200</div>
-    <div class="aircraft-card">A330-300</div>
-    <div class="aircraft-card">A350-900</div>
-    <div class="aircraft-card">A380-800</div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Airbus_A320_family" target="_blank">A320-200</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Airbus_A321" target="_blank">A321-200</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Airbus_A330" target="_blank">A330-200</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Airbus_A330" target="_blank">A330-300</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Airbus_A350" target="_blank">A350-900</a></div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Airbus_A380" target="_blank">A380-800</a></div>
   </div>
 </div>
 
 <div class="aircraft-section">
   <h3><span class="manufacturer-logo comac-logo">COMAC</span> COMAC</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card">C909 (ARJ21)</div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/COMAC_ARJ21" target="_blank">C909 (ARJ21)</a></div>
   </div>
 </div>
 
 <div class="aircraft-section">
   <h3><span class="manufacturer-logo embraer-logo">EMBRAER</span> Embraer</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card">ERJ-175</div>
+    <div class="aircraft-card"><a href="https://en.wikipedia.org/wiki/Embraer_E-Jet_family" target="_blank">ERJ-175</a></div>
   </div>
 </div>
