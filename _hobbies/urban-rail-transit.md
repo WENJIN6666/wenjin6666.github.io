@@ -25,81 +25,81 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ### Shenzhen (15)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Shenzhen_Metro)" style="color:#00b140;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Shenzhen_Metro)" style="color:#ff6600;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Shenzhen_Metro)" style="color:#00bfff;">Line 3</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Shenzhen_Metro)" style="color:#d90000;">Line 4</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Shenzhen_Metro)" style="color:#7b00b1;">Line 5</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Shenzhen_Metro)" style="color:#00a393;">Line 6</a>
-<a href="https://en.wikipedia.org/wiki/Line_7_(Shenzhen_Metro)" style="color:#0047ba;">Line 7</a>
-<a href="https://en.wikipedia.org/wiki/Line_8_(Shenzhen_Metro)" style="color:#00c170;">Line 8</a>
-<a href="https://en.wikipedia.org/wiki/Line_9_(Shenzhen_Metro)" style="color:#b5b5b5;">Line 9</a>
-<a href="https://en.wikipedia.org/wiki/Line_10_(Shenzhen_Metro)" style="color:#ff85c0;">Line 10</a>
-<a href="https://en.wikipedia.org/wiki/Line_11_(Shenzhen_Metro)" style="color:#660099;">Line 11</a>
-<a href="https://en.wikipedia.org/wiki/Line_12_(Shenzhen_Metro)" style="color:#c5a300;">Line 12</a>
-<a href="https://en.wikipedia.org/wiki/Line_13_(Shenzhen_Metro)" style="color:#f9c700;">Line 13</a>
-<a href="https://en.wikipedia.org/wiki/Line_14_(Shenzhen_Metro)" style="color:#00567b;">Line 14</a>
-<a href="https://en.wikipedia.org/wiki/Line_16_(Shenzhen_Metro)" style="color:#00c1a0;">Line 16</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Shenzhen_Metro)" style="color:#00ab39;">Line 1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Shenzhen_Metro)" style="color:#ff8200;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Shenzhen_Metro)" style="color:#00a2e1;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Shenzhen_Metro)" style="color:#dc241f;">Line 4</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Shenzhen_Metro)" style="color:#9950b2;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Shenzhen_Metro)" style="color:#3abca8;">Line 6</a>
+<a href="https://en.wikipedia.org/wiki/Line_7_(Shenzhen_Metro)" style="color:#0035ad;">Line 7</a>
+<a href="https://en.wikipedia.org/wiki/Line_8_(Shenzhen_Metro)" style="color:#ff8200;">Line 8</a>
+<a href="https://en.wikipedia.org/wiki/Line_9_(Shenzhen_Metro)" style="color:#846e74;">Line 9</a>
+<a href="https://en.wikipedia.org/wiki/Line_10_(Shenzhen_Metro)" style="color:#f8779e;">Line 10</a>
+<a href="https://en.wikipedia.org/wiki/Line_11_(Shenzhen_Metro)" style="color:#6a1d44;">Line 11</a>
+<a href="https://en.wikipedia.org/wiki/Line_12_(Shenzhen_Metro)" style="color:#a192b2;">Line 12</a>
+<a href="https://en.wikipedia.org/wiki/Line_13_(Shenzhen_Metro)" style="color:#de7c00;">Line 13</a>
+<a href="https://en.wikipedia.org/wiki/Line_14_(Shenzhen_Metro)" style="color:#f2c75c;">Line 14</a>
+<a href="https://en.wikipedia.org/wiki/Line_16_(Shenzhen_Metro)" style="color:#bbbbbb;">Line 16</a>
 </div>
 
 ### Guangzhou (14)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Guangzhou_Metro)" style="color:#f3d03e;">Line 1</a>
 <a href="https://en.wikipedia.org/wiki/Line_2_(Guangzhou_Metro)" style="color:#00629b;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Guangzhou_Metro)" style="color:#eca154;">Line 3</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Guangzhou_Metro)" style="color:#c5191c;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Guangzhou_Metro)" style="color:#ee8135;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Guangzhou_Metro)" style="color:#c5003e;">Line 5</a>
 <a href="https://en.wikipedia.org/wiki/Line_6_(Guangzhou_Metro)" style="color:#80225f;">Line 6</a>
-<a href="https://en.wikipedia.org/wiki/Line_7_(Guangzhou_Metro)" style="color:#97d700;">Line 7</a>
-<a href="https://en.wikipedia.org/wiki/Line_8_(Guangzhou_Metro)" style="color:#008c95;">Line 8</a>
-<a href="https://en.wikipedia.org/wiki/Line_11_(Guangzhou_Metro)" style="color:#f1b6c4;">Line 11</a>
-<a href="https://en.wikipedia.org/wiki/Line_13_(Guangzhou_Metro)" style="color:#8e8c13;">Line 13</a>
-<a href="https://en.wikipedia.org/wiki/Line_18_(Guangzhou_Metro)" style="color:#0047ab;">Line 18</a>
-<a href="https://en.wikipedia.org/wiki/Line_21_(Guangzhou_Metro)" style="color:#201747;">Line 21</a>
-<a href="https://en.wikipedia.org/wiki/Line_22_(Guangzhou_Metro)" style="color:#89898d;">Line 22</a>
-<a href="https://en.wikipedia.org/wiki/Zhujiang_New_Town_APM" style="color:#009a44;">APM Line</a>
-<a href="https://en.wikipedia.org/wiki/Guangfo_Line" style="color:#f04e23;">Guangfo Line</a>
+<a href="https://en.wikipedia.org/wiki/Line_7_(Guangzhou_Metro)" style="color:#90d247;">Line 7</a>
+<a href="https://en.wikipedia.org/wiki/Line_8_(Guangzhou_Metro)" style="color:#008b83;">Line 8</a>
+<a href="https://en.wikipedia.org/wiki/Line_11_(Guangzhou_Metro)" style="color:#7a2a38;">Line 11</a>
+<a href="https://en.wikipedia.org/wiki/Line_13_(Guangzhou_Metro)" style="color:#8a9a57;">Line 13</a>
+<a href="https://en.wikipedia.org/wiki/Line_18_(Guangzhou_Metro)" style="color:#eb9d3f;">Line 18</a>
+<a href="https://en.wikipedia.org/wiki/Line_21_(Guangzhou_Metro)" style="color:#8b4c38;">Line 21</a>
+<a href="https://en.wikipedia.org/wiki/Line_22_(Guangzhou_Metro)" style="color:#eb9d3f;">Line 22</a>
+<a href="https://en.wikipedia.org/wiki/Zhujiang_New_Town_APM" style="color:#00a5df;">APM Line</a>
+<a href="https://en.wikipedia.org/wiki/Guangfo_Line" style="color:#f0d023;">Guangfo Line</a>
 </div>
 
 ### Beijing (12)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Beijing_Subway)" style="color:#c23a30;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Beijing_Subway)" style="color:#006098;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Beijing_Subway)" style="color:#ff6600;">Line 3</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Beijing_Subway)" style="color:#008e9c;">Line 4·Daxing</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Beijing_Subway)" style="color:#a6217f;">Line 5</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Beijing_Subway)" style="color:#d09900;">Line 6</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Beijing_Subway)" style="color:#A4343A;">Line 1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Beijing_Subway)" style="color:#004B87;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Beijing_Subway)" style="color:#E20035;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Beijing_Subway)" style="color:#008C95;">Line 4·Daxing</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Beijing_Subway)" style="color:#880038;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Beijing_Subway)" style="color:#D09833;">Line 6</a>
 <a href="https://en.wikipedia.org/wiki/Line_8_(Beijing_Subway)" style="color:#009b6b;">Line 8</a>
 <a href="https://en.wikipedia.org/wiki/Line_10_(Beijing_Subway)" style="color:#009bc0;">Line 10</a>
-<a href="https://en.wikipedia.org/wiki/Line_13_(Beijing_Subway)" style="color:#f9e700;">Line 13</a>
-<a href="https://en.wikipedia.org/wiki/Line_14_(Beijing_Subway)" style="color:#d4a76a;">Line 14</a>
-<a href="https://en.wikipedia.org/wiki/Line_15_(Beijing_Subway)" style="color:#6a357d;">Line 15</a>
-<a href="https://en.wikipedia.org/wiki/Beijing_Capital_Airport_Express" style="color:#a29bbb;">Capital Airport Express</a>
+<a href="https://en.wikipedia.org/wiki/Line_13_(Beijing_Subway)" style="color:#FBBF00;">Line 13</a>
+<a href="https://en.wikipedia.org/wiki/Line_14_(Beijing_Subway)" style="color:#C74000;">Line 14</a>
+<a href="https://en.wikipedia.org/wiki/Line_15_(Beijing_Subway)" style="color:#6A357C;">Line 15</a>
+<a href="https://en.wikipedia.org/wiki/Beijing_Capital_Airport_Express" style="color:#9E9EAC;">Capital Airport Express</a>
 </div>
 
 ### Chengdu (9)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Chengdu_Metro)" style="color:#2455a4;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Chengdu_Metro)" style="color:#f37f00;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Chengdu_Metro)" style="color:#d40068;">Line 3</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Chengdu_Metro)" style="color:#00a651;">Line 4</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Chengdu_Metro)" style="color:#a6509f;">Line 5</a>
-<a href="https://en.wikipedia.org/wiki/Line_7_(Chengdu_Metro)" style="color:#00b4c5;">Line 7</a>
-<a href="https://en.wikipedia.org/wiki/Line_10_(Chengdu_Metro)" style="color:#004b9b;">Line 10</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Chengdu_Metro)" style="color:#00529B;">Line 1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Chengdu_Metro)" style="color:#EE7700;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Chengdu_Metro)" style="color:#D80073;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Chengdu_Metro)" style="color:#009B4C;">Line 4</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Chengdu_Metro)" style="color:#7C4C9D;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_7_(Chengdu_Metro)" style="color:#00A0E2;">Line 7</a>
+<a href="https://en.wikipedia.org/wiki/Line_10_(Chengdu_Metro)" style="color:#003DA5;">Line 10</a>
 <a href="https://en.wikipedia.org/wiki/Line_13_(Chengdu_Metro)" style="color:#f47e00;">Line 13</a>
-<a href="https://en.wikipedia.org/wiki/Line_18_(Chengdu_Metro)" style="color:#2b388f;">Line 18</a>
+<a href="https://en.wikipedia.org/wiki/Line_18_(Chengdu_Metro)" style="color:#007D7B;">Line 18</a>
 </div>
 
 ### Wuhan (9)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Wuhan_Metro)" style="color:#0072ce;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Wuhan_Metro)" style="color:#d60080;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Wuhan_Metro)" style="color:#ffc72c;">Line 3</a>
-<a href="https://en.wikipedia.org/wiki/Line_4_(Wuhan_Metro)" style="color:#00a650;">Line 4</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Wuhan_Metro)" style="color:#a6509f;">Line 5</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Wuhan_Metro)" style="color:#00b4c5;">Line 6</a>
-<a href="https://en.wikipedia.org/wiki/Line_7_(Wuhan_Metro)" style="color:#f37f00;">Line 7</a>
-<a href="https://en.wikipedia.org/wiki/Line_8_(Wuhan_Metro)" style="color:#e31837;">Line 8</a>
-<a href="https://en.wikipedia.org/wiki/Line_16_(Wuhan_Metro)" style="color:#87572a;">Line 16</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Wuhan_Metro)" style="color:#0080C8;">Line 1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Wuhan_Metro)" style="color:#E86EA4;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Wuhan_Metro)" style="color:#D6A461;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_4_(Wuhan_Metro)" style="color:#A0CF67;">Line 4</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Wuhan_Metro)" style="color:#F08080;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Wuhan_Metro)" style="color:#00A650;">Line 6</a>
+<a href="https://en.wikipedia.org/wiki/Line_7_(Wuhan_Metro)" style="color:#F58220;">Line 7</a>
+<a href="https://en.wikipedia.org/wiki/Line_8_(Wuhan_Metro)" style="color:#8C8C8C;">Line 8</a>
+<a href="https://en.wikipedia.org/wiki/Line_16_(Wuhan_Metro)" style="color:#C724B1;">Line 16</a>
 </div>
 
 ### Xi'an (8)
@@ -116,19 +116,19 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ### Hong Kong (7)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Tsuen_Wan_line" style="color:#e31837;">Tsuen Wan Line</a>
-<a href="https://en.wikipedia.org/wiki/Kwun_Tong_line" style="color:#00a650;">Kwun Tong Line</a>
-<a href="https://en.wikipedia.org/wiki/Island_line_(MTR)" style="color:#0072ce;">Island Line</a>
-<a href="https://en.wikipedia.org/wiki/East_Rail_line" style="color:#5eb6e4;">East Rail Line</a>
-<a href="https://en.wikipedia.org/wiki/Tuen_Ma_line" style="color:#9a6538;">Tuen Ma Line</a>
-<a href="https://en.wikipedia.org/wiki/South_Island_line" style="color:#b5bd00;">South Island Line</a>
-<a href="https://en.wikipedia.org/wiki/Tung_Chung_line" style="color:#f37f00;">Tung Chung Line</a>
+<a href="https://en.wikipedia.org/wiki/Tsuen_Wan_line" style="color:#ED1D24;">Tsuen Wan Line</a>
+<a href="https://en.wikipedia.org/wiki/Kwun_Tong_line" style="color:#00AB4E;">Kwun Tong Line</a>
+<a href="https://en.wikipedia.org/wiki/Island_line_(MTR)" style="color:#007DC5;">Island Line</a>
+<a href="https://en.wikipedia.org/wiki/East_Rail_line" style="color:#53B7E8;">East Rail Line</a>
+<a href="https://en.wikipedia.org/wiki/Tuen_Ma_line" style="color:#923011;">Tuen Ma Line</a>
+<a href="https://en.wikipedia.org/wiki/South_Island_line" style="color:#BAC429;">South Island Line</a>
+<a href="https://en.wikipedia.org/wiki/Tung_Chung_line" style="color:#F7943E;">Tung Chung Line</a>
 </div>
 
 ### Shanghai (6)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Shanghai_Metro)" style="color:#e31837;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Shanghai_Metro)" style="color:#97d700;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Shanghai_Metro)" style="color:#e3002b;">Line 1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Shanghai_Metro)" style="color:#82BF25;">Line 2</a>
 <a href="https://en.wikipedia.org/wiki/Line_8_(Shanghai_Metro)" style="color:#0072ce;">Line 8</a>
 <a href="https://en.wikipedia.org/wiki/Line_10_(Shanghai_Metro)" style="color:#c6a0cf;">Line 10</a>
 <a href="https://en.wikipedia.org/wiki/Line_11_(Shanghai_Metro)" style="color:#8e2c24;">Line 11</a>
@@ -138,20 +138,20 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 ### Changsha (6)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Changsha_Metro)" style="color:#e31837;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Changsha_Metro)" style="color:#f37f00;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Changsha_Metro)" style="color:#97d700;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Changsha_Metro)" style="color:#00BFFF;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Changsha_Metro)" style="color:#9ACD32;">Line 3</a>
 <a href="https://en.wikipedia.org/wiki/Line_4_(Changsha_Metro)" style="color:#7d4698;">Line 4</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Changsha_Metro)" style="color:#0072ce;">Line 5</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Changsha_Metro)" style="color:#d60080;">Line 6</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Changsha_Metro)" style="color:#FFD700;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Changsha_Metro)" style="color:#00008B;">Line 6</a>
 </div>
 
 ### Tianjin (5)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Tianjin_Metro)" style="color:#e31837;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Tianjin_Metro)" style="color:#f9e700;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Tianjin_Metro)" style="color:#0072ce;">Line 3</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Tianjin_Metro)" style="color:#f37f00;">Line 5</a>
-<a href="https://en.wikipedia.org/wiki/Line_6_(Tianjin_Metro)" style="color:#7d4698;">Line 6</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Tianjin_Metro)" style="color:#E31837;">Line 1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Tianjin_Metro)" style="color:#FFD700;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Tianjin_Metro)" style="color:#87CEEB;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Tianjin_Metro)" style="color:#FF8C00;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Tianjin_Metro)" style="color:#FF00FF;">Line 6</a>
 </div>
 
 ### Shenyang (5)
@@ -165,11 +165,11 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 
 ### Dalian (5)
 <div class="metro-lines">
-<a href="https://en.wikipedia.org/wiki/Line_1_(Dalian_Metro)" style="color:#00529b;">Line 1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Dalian_Metro)" style="color:#f37f00;">Line 2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Dalian_Metro)" style="color:#97d700;">Line 3</a>
-<a href="https://en.wikipedia.org/wiki/Line_5_(Dalian_Metro)" style="color:#e31837;">Line 5</a>
-<a href="https://en.wikipedia.org/wiki/Line_12_(Dalian_Metro)" style="color:#00a650;">Line 12</a>
+<a href="https://en.wikipedia.org/wiki/Line_1_(Dalian_Metro)" style="color:#00AB4E;">Line 1</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Dalian_Metro)" style="color:#0072CE;">Line 2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Dalian_Metro)" style="color:#D60080;">Line 3</a>
+<a href="https://en.wikipedia.org/wiki/Line_5_(Dalian_Metro)" style="color:#E31837;">Line 5</a>
+<a href="https://en.wikipedia.org/wiki/Line_12_(Dalian_Metro)" style="color:#7D4698;">Line 12</a>
 </div>
 
 ### Qingdao (4)
