@@ -216,8 +216,8 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 ### Harbin (3)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Harbin_Metro)" style="background-color:#e31837;">1</a>
-<a href="https://en.wikipedia.org/wiki/Line_2_(Harbin_Metro)" style="background-color:#f37f00;">2</a>
-<a href="https://en.wikipedia.org/wiki/Line_3_(Harbin_Metro)" style="background-color:#0072ce;">3</a>
+<a href="https://en.wikipedia.org/wiki/Line_2_(Harbin_Metro)" style="background-color:#00a650;">2</a>
+<a href="https://en.wikipedia.org/wiki/Line_3_(Harbin_Metro)" style="background-color:#EAAA00;">3</a>
 </div>
 
 ### Jinan (3)
