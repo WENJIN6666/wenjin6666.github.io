@@ -4,13 +4,13 @@
 {% if page.prev_page or page.next_page %}
   <nav class="pagination">
     {% if page.prev_page %}
-      <a href="{{ base_path }}{{ page.prev_page.url }}" class="pagination--pager" style="text-align: center;">
+      <a href="{{ base_path }}{{ page.prev_page.url }}" class="pagination--pager" style="text-align: center;" target="_blank">
         <span style="display: block; font-size: 0.75em; color: #888; margin-bottom: 0.3em;">Previous</span>
         <span style="font-weight: bold;">{{ page.prev_page.title }}</span>
       </a>
     {% endif %}
     {% if page.next_page %}
-      <a href="{{ base_path }}{{ page.next_page.url }}" class="pagination--pager" style="text-align: center;">
+      <a href="{{ base_path }}{{ page.next_page.url }}" class="pagination--pager" style="text-align: center;" target="_blank">
         <span style="display: block; font-size: 0.75em; color: #888; margin-bottom: 0.3em;">Next</span>
         <span style="font-weight: bold;">{{ page.next_page.title }}</span>
       </a>
@@ -19,12 +19,12 @@
 {% elsif page.previous or page.next %}
   <nav class="pagination">
     {% if page.previous %}
-      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}" target="_blank">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% endif %}
     {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}" target="_blank">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
     {% endif %}
