@@ -8,5 +8,5 @@ location: "Dalian, China"
 venue: "<a href='https://www.dlut.edu.cn/' target='_blank'>Dalian University of Technology</a>"
 ---
 
-- Advisor: [Prof. Heng Qi](https://faculty.dlut.edu.cn/2012015034/zh_CN/index.htm)
+- Advisor: <a href="https://faculty.dlut.edu.cn/2012015034/zh_CN/index.htm" target="_blank">Prof. Heng Qi</a>
 - Research period: Mar 2025 - May 2026
