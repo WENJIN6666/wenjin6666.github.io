@@ -4,8 +4,8 @@ collection: hobbies
 permalink: /hobbies/civil-aviation
 date: 2026-01-17
 prev_page:
-  url: /hobbies/urban-rail-transit
-  title: "Urban Rail Transit Systems"
+  url: /hobbies/photography
+  title: "Photography"
 next_page:
   url: /hobbies/urban-rail-transit
   title: "Urban Rail Transit Systems"

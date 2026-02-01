@@ -7,8 +7,8 @@ prev_page:
   url: /hobbies/civil-aviation
   title: "Aviation"
 next_page:
-  url: /hobbies/civil-aviation
-  title: "Aviation"
+  url: /hobbies/photography
+  title: "Photography"
 ---
 
 <a href="/hobbies/" style="display: inline-block; margin-bottom: 1em; color: #8B0000;"><i class="fas fa-arrow-left"></i> Back to Hobbies</a>
