@@ -177,8 +177,8 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_1_(Shenyang_Metro)" style="background-color:#e31837;" target="_blank">1</a>
 <a href="https://en.wikipedia.org/wiki/Line_2_(Shenyang_Metro)" style="background-color:#FF8C00;" target="_blank">2</a>
 <a href="https://en.wikipedia.org/wiki/Line_4_(Shenyang_Metro)" style="background-color:#800080;" target="_blank">4</a>
-<a href="https://en.wikipedia.org/wiki/Line_9_(Shenyang_Metro)" style="background-color:#0000FF;" target="_blank">9</a>
-<a href="https://en.wikipedia.org/wiki/Line_10_(Shenyang_Metro)" style="background-color:#008000;" target="_blank">10</a>
+<a href="https://en.wikipedia.org/wiki/Line_9_(Shenyang_Metro)" style="background-color:#00BFFF;" target="_blank">9</a>
+<a href="https://en.wikipedia.org/wiki/Line_10_(Shenyang_Metro)" style="background-color:#9ACD32;" target="_blank">10</a>
 </div>
 
 ### Dalian (5)
