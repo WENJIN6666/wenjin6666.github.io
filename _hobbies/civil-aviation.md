@@ -167,8 +167,7 @@ I have flown on **11 different aircraft types** from 4 manufacturers. Click on e
 <div class="aircraft-section">
   <h3><img src="/images/logos/airbus.png" alt="Airbus"> Airbus</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card" onclick="showFlights('A320', 'a320')">A320 (19)</div>
-    <div class="aircraft-card" onclick="showFlights('A321', 'a321')">A321 (3)</div>
+    <div class="aircraft-card" onclick="showFlights('A320/A321', 'a320321')">A320/A321 (22)</div>
     <div class="aircraft-card" onclick="showFlights('A330-200', 'a330200')">A330-200 (1)</div>
     <div class="aircraft-card" onclick="showFlights('A330-300', 'a330300')">A330-300 (1)</div>
     <div class="aircraft-card" onclick="showFlights('A350-900', 'a350900')">A350-900 (2)</div>
@@ -235,7 +234,9 @@ const flightData = {
   b777300er: [
     {date: '2026-01-07', code: 'MU5414', route: 'CTU→PVG'}
   ],
-  a320: [
+  a320321: [
+    {date: '2017-02-05', code: 'HO1174', route: 'DOY→PVG'},
+    {date: '2017-02-09', code: 'HO1175', route: 'PVG→DOY'},
     {date: '2019-01-28', code: 'HO1174', route: 'DOY→PVG'},
     {date: '2019-01-31', code: 'HO1175', route: 'PVG→DOY'},
     {date: '2024-03-17', code: 'CZ6426', route: 'WUH→DLC'},
@@ -254,11 +255,7 @@ const flightData = {
     {date: '2025-12-20', code: '9C6781', route: 'SHE→HET'},
     {date: '2025-12-22', code: '9C6732', route: 'HET→DLC'},
     {date: '2026-01-04', code: 'MU6622', route: 'DLC→TYN→LHW'},
-    {date: '2026-01-04', code: 'MU2472', route: 'LHW→TFU'}
-  ],
-  a321: [
-    {date: '2017-02-05', code: 'HO1174', route: 'DOY→PVG'},
-    {date: '2017-02-09', code: 'HO1175', route: 'PVG→DOY'},
+    {date: '2026-01-04', code: 'MU2472', route: 'LHW→TFU'},
     {date: '2026-01-07', code: 'MU5673', route: 'PVG→DLC'}
   ],
   a330200: [
