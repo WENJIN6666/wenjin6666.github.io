@@ -56,15 +56,15 @@ I enjoy capturing the vibrant essence of bustling cities through my lens. From t
 
 <div class="photo-gallery">
   <div class="photo-item">
-    <img src="/images/photog/Downtown LA.HEIC" alt="Downtown Los Angeles" style="width: 100%; height: 250px; object-fit: cover;">
+    <img src="/images/photog/Downtown LA.jpg" alt="Downtown Los Angeles" style="width: 100%; height: 250px; object-fit: cover;">
     <div class="photo-caption">Downtown Los Angeles</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photog/Downtown San Francisco.HEIC" alt="Downtown San Francisco" style="width: 100%; height: 250px; object-fit: cover;">
+    <img src="/images/photog/Downtown San Francisco.jpg" alt="Downtown San Francisco" style="width: 100%; height: 250px; object-fit: cover;">
     <div class="photo-caption">Downtown San Francisco</div>
   </div>
   <div class="photo-item">
-    <img src="/images/photog/New York Manhattan.HEIC" alt="New York Manhattan" style="width: 100%; height: 250px; object-fit: cover;">
+    <img src="/images/photog/New York Manhattan.jpg" alt="New York Manhattan" style="width: 100%; height: 250px; object-fit: cover;">
     <div class="photo-caption">New York Manhattan</div>
   </div>
   <div class="photo-item">
