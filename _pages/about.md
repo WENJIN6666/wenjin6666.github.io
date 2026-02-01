@@ -20,14 +20,14 @@ My research interests lie in <strong style="color: #8B0000;">deep learning</stro
 
 ## Education
 
-- **B.Eng. in Computer Science**, <img src="/images/logos/dutlogo.png" alt="DUT" style="height: 1em; vertical-align: middle;"> Dalian University of Technology, Sep 2022 - Present
+- <strong style="color: #8B0000;">B.Eng. in Computer Science</strong>, <img src="/images/logos/dutlogo.png" alt="DUT" style="height: 1em; vertical-align: middle;"> Dalian University of Technology, Sep 2022 - Present
 
 ## Skills
 
-- **Programming Languages**: Python, C++, C, JavaScript, LaTeX
-- **Frameworks & Libraries**: PyTorch, Pandas, NumPy, and more
-- **Languages**: English (IELTS Academic 7.5), Chinese (Native)
+- <strong style="color: #8B0000;">Programming Languages</strong>: Python, C++, C, JavaScript, LaTeX
+- <strong style="color: #8B0000;">Frameworks & Libraries</strong>: PyTorch, Pandas, NumPy, and more
+- <strong style="color: #8B0000;">Languages</strong>: English (IELTS Academic 7.5), Chinese (Native)
 
 ## Awards
 
-- **Second Prize**, Chinese Mathematics Competition (CMC), Nov 2023
+- <strong style="color: #8B0000;">Second Prize</strong>, Chinese Mathematics Competition (CMC), Nov 2023
