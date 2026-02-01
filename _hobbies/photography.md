@@ -4,11 +4,11 @@ collection: hobbies
 permalink: /hobbies/photography
 date: 2026-02-01
 prev_page:
-  url: /hobbies/urban-rail-transit
-  title: "Urban Rail Transit Systems"
-next_page:
   url: /hobbies/civil-aviation
   title: "Aviation"
+next_page:
+  url: /hobbies/urban-rail-transit
+  title: "Urban Rail Transit Systems"
 ---
 
 <a href="/hobbies/" style="display: inline-block; margin-bottom: 1em; color: #8B0000;"><i class="fas fa-arrow-left"></i> Back to Hobbies</a>
