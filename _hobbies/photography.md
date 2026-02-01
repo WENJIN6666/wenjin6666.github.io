@@ -56,28 +56,20 @@ I enjoy capturing the vibrant essence of bustling cities through my lens. From t
 
 <div class="photo-gallery">
   <div class="photo-item">
-    <div class="photo-placeholder">Photo Coming Soon</div>
-    <div class="photo-caption">Urban Cityscape 1</div>
+    <img src="/images/photog/Downtown LA.HEIC" alt="Downtown Los Angeles" style="width: 100%; height: 250px; object-fit: cover;">
+    <div class="photo-caption">Downtown Los Angeles</div>
   </div>
   <div class="photo-item">
-    <div class="photo-placeholder">Photo Coming Soon</div>
-    <div class="photo-caption">Urban Cityscape 2</div>
+    <img src="/images/photog/Downtown San Francisco.HEIC" alt="Downtown San Francisco" style="width: 100%; height: 250px; object-fit: cover;">
+    <div class="photo-caption">Downtown San Francisco</div>
   </div>
   <div class="photo-item">
-    <div class="photo-placeholder">Photo Coming Soon</div>
-    <div class="photo-caption">Urban Cityscape 3</div>
+    <img src="/images/photog/New York Manhattan.HEIC" alt="New York Manhattan" style="width: 100%; height: 250px; object-fit: cover;">
+    <div class="photo-caption">New York Manhattan</div>
   </div>
   <div class="photo-item">
-    <div class="photo-placeholder">Photo Coming Soon</div>
-    <div class="photo-caption">Urban Cityscape 4</div>
-  </div>
-  <div class="photo-item">
-    <div class="photo-placeholder">Photo Coming Soon</div>
-    <div class="photo-caption">Urban Cityscape 5</div>
-  </div>
-  <div class="photo-item">
-    <div class="photo-placeholder">Photo Coming Soon</div>
-    <div class="photo-caption">Urban Cityscape 6</div>
+    <img src="/images/photog/Singapore Marina Bay.jpg" alt="Singapore Marina Bay" style="width: 100%; height: 250px; object-fit: cover;">
+    <div class="photo-caption">Singapore Marina Bay</div>
   </div>
 </div>
 
