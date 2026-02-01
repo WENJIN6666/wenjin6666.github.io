@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Yunfan Leng (冷云帆), a undergraduate student in Computer Science at the [Dalian University of Technology](https://www.dlut.edu.cn/), starting from Fall 2022.
+I am Yunfan Leng (冷云帆), a undergraduate student in Computer Science at the <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>, starting from Fall 2022.
 
 ## Research Interests
 
