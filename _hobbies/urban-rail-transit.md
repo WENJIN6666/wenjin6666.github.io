@@ -41,7 +41,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 .metro-lines a:hover { opacity: 0.8; }
 </style>
 
-### Shenzhen (15)
+### Shenzhen (16)
 <div class="metro-lines">
 <a href="https://en.wikipedia.org/wiki/Line_1_(Shenzhen_Metro)" style="background-color:#00ab39;" target="_blank">1</a>
 <a href="https://en.wikipedia.org/wiki/Line_2_(Shenzhen_Metro)" style="background-color:#ff8200;" target="_blank">2</a>
@@ -49,6 +49,7 @@ I am an urban rail transit enthusiast with a long-standing interest in studying 
 <a href="https://en.wikipedia.org/wiki/Line_4_(Shenzhen_Metro)" style="background-color:#dc241f;" target="_blank">4</a>
 <a href="https://en.wikipedia.org/wiki/Line_5_(Shenzhen_Metro)" style="background-color:#9950b2;" target="_blank">5</a>
 <a href="https://en.wikipedia.org/wiki/Line_6_(Shenzhen_Metro)" style="background-color:#3abca8;" target="_blank">6</a>
+<a href="https://en.wikipedia.org/wiki/Line_6_(Shenzhen_Metro)#Branch_line" style="background-color:#3abca8;" target="_blank">6B</a>
 <a href="https://en.wikipedia.org/wiki/Line_7_(Shenzhen_Metro)" style="background-color:#0035ad;" target="_blank">7</a>
 <a href="https://en.wikipedia.org/wiki/Line_8_(Shenzhen_Metro)" style="background-color:#ff8200;" target="_blank">8</a>
 <a href="https://en.wikipedia.org/wiki/Line_9_(Shenzhen_Metro)" style="background-color:#846e74;" target="_blank">9</a>
