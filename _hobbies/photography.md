@@ -157,7 +157,7 @@ document.addEventListener('keydown', function(e) {
 
 ## Cities I've Visited
 
-I have visited **58 cities** across multiple countries and regions. Click the markers on the map below to see city details.
+I have visited **59 cities** across multiple countries and regions. Click the markers on the map below to see city details.
 
 <iframe src="/assets/maps/cities.html" width="100%" height="500" frameborder="0" style="border:0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"></iframe>
 
