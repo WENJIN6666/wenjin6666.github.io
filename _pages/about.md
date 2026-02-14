@@ -14,7 +14,7 @@ I am Yunfan Leng (冷云帆), a undergraduate student in Computer Science at the
 My research interests lie in <strong style="color: #8B0000;">machine learning</strong> and <strong style="color: #8B0000;">data mining</strong>, with a particular focus on:
 
 - <strong style="color: #8B0000;">Multi-modal Learning</strong>
-- <strong style="color: #8B0000;">Time-series Forecasting and Representation</strong>
+- <strong style="color: #8B0000;">Signal Representation and Time-series Forecasting</strong>
 - <strong style="color: #8B0000;">Large Language Models (LLMs) and Vision-Language Models (VLMs)</strong>
 
 ## Education
