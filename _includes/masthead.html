@@ -15,16 +15,12 @@
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}"{% if link.url contains '.pdf' or link.url contains 'http' %} target="_blank"{% endif %} data-i18n="{{ link.title }}" data-i18n-zh="{{ link.title_zh }}">{{ link.title }}</a>
+              <a href="{{ domain }}{{ link.url }}"{% if link.url contains '.pdf' or link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
             </li>
           {% endfor %}
-          <li class="masthead__menu-item">
-            <a href="#" id="language-toggle" class="lang-toggle" title="切换语言">中</a>
+          <li id="theme-toggle" class="masthead__menu-item persist tail">
+            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
-          <!-- Theme toggle commented out -->
-          <!-- <li class="masthead__menu-item">
-            <a href="#" id="theme-toggle"><i class="fas fa-fw fa-sun" id="theme-icon"></i></a>
-          </li> -->
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
