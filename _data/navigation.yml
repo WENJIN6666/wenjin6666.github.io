@@ -10,30 +10,39 @@
 main:
   - title: "News"
     url: /news/
+    title_zh: "新闻"
 
   - title: "Publications"
     url: /publications/
+    title_zh: "出版物"
 
   - title: "Experiences"
     url: /experiences/
+    title_zh: "经历"
 
   #- title: "Talks"
-  #  url: /talks/    
+  #  url: /talks/
+  #  title_zh: "演讲"
 
   #- title: "Teaching"
-  #  url: /teaching/    
+  #  url: /teaching/
+  #  title_zh: "教学"
     
   #- title: "Portfolio"
   # url: /portfolio/
+  # title_zh: "作品集"
         
   #- title: "Blog Posts"
   #  url: /year-archive/
+  #  title_zh: "博客"
     
   - title: "CV"
     url: /files/cv.pdf
+    title_zh: "简历"
 
   - title: "Hobbies"
     url: /hobbies/
+    title_zh: "兴趣"
     
   # - title: "CV"
   #   url: /cv-json/

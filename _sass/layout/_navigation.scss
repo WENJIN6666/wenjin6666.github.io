@@ -225,6 +225,17 @@
       }
     }
 
+    #language-toggle {
+      a {
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 600;
+      }
+    }
+
     #theme-toggle {
       a {
         width: 25px;
