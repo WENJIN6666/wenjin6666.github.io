@@ -138,7 +138,7 @@ let toggleLanguage = () => {
   window.location.reload();
 };
 
-// ========== Theme functions ==========
+/* ========== Theme functions (DISABLED) ==========
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
@@ -183,14 +183,16 @@ var toggleTheme = () => {
   localStorage.setItem("theme", new_theme);
   setTheme(new_theme);
 };
+*/
 
 /* ==========================================================================
-   Plotly integration script so that Markdown codeblocks will be rendered
+   Plotly integration script - Theme support disabled
    ========================================================================== */
 
 // Read the Plotly data from the code block, hide it, and render the chart as new node. This allows for the 
 // JSON data to be retrieve when the theme is switched. The listener should only be added if the data is 
 // actually present on the page.
+/*
 import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
 let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
 if (plotlyElements.length > 0) {
@@ -217,6 +219,7 @@ if (plotlyElements.length > 0) {
     }
   });
 }
+*/
 
 /* ==========================================================================
    Actions that should occur when the page has been fully loaded
@@ -232,25 +235,31 @@ $(document).ready(function () {
   $("html").attr("lang", current_lang);
   updateLanguageDisplay(current_lang);
   translatePage(current_lang);
-  $("#language-toggle").on("click", function(e) {
+  
+  // Bind language toggle with proper event handling
+  $("#language-toggle").off("click").on("click", function(e) {
     e.preventDefault();
+    e.stopPropagation();
+    console.log("Language toggle clicked");
     toggleLanguage();
+    return false;
   });
 
+  /* Theme toggle disabled */
   // If the user hasn't chosen a theme, follow the OS preference
-  setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
+  // setTheme();
+  // window.matchMedia('(prefers-color-scheme: dark)')
+  //       .addEventListener("change", (e) => {
+  //         if (!localStorage.getItem("theme")) {
+  //           setTheme(e.matches ? "dark" : "light");
+  //         }
+  //       });
   
   // Handle theme toggle button
-  $("#theme-toggle").on("click", function(e) {
-    e.preventDefault();
-    toggleTheme();
-  });
+  // $("#theme-toggle").on("click", function(e) {
+  //   e.preventDefault();
+  //   toggleTheme();
+  // });
 
   // Enable the sticky footer
   var bumpIt = function () {
