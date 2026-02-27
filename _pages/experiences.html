@@ -5,6 +5,74 @@ permalink: /experiences/
 author_profile: true
 ---
 
+<style>
+.experience-controls {
+  display: inline-flex;
+  gap: 8px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+.experience-toggle {
+  border: 1px solid #8B0000;
+  color: #8B0000;
+  background: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.experience-toggle:hover {
+  background: #8B0000;
+  color: #fff;
+}
+.experience-summary {
+  cursor: pointer;
+  list-style: none;
+}
+.experience-summary::-webkit-details-marker {
+  display: none;
+}
+.experience-title {
+  font-weight: 700;
+  color: #8B0000;
+}
+.experience-meta {
+  margin-left: 8px;
+  color: #666;
+  font-size: 0.95em;
+}
+.experience-content {
+  margin-top: 8px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var titleEl = document.querySelector('.page__title');
+  if (titleEl) {
+    var controls = document.createElement('span');
+    controls.className = 'experience-controls';
+    controls.innerHTML = '<button type="button" class="experience-toggle" data-action="expand">Expand all</button>' +
+                         '<button type="button" class="experience-toggle" data-action="collapse">Collapse all</button>';
+    titleEl.appendChild(controls);
+  }
+
+  function setAll(open) {
+    document.querySelectorAll('.experience-item').forEach(function (item) {
+      item.open = open;
+    });
+  }
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.experience-toggle');
+    if (!btn) return;
+    var action = btn.getAttribute('data-action');
+    setAll(action === 'expand');
+  });
+});
+</script>
+
 {% for post in site.experiences reversed %}
   {% include archive-single-experience.html %}
 {% endfor %}

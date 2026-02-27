@@ -8,12 +8,18 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline">{{ title }}</h2>
-    
-    {% if post.venue %}
-      <p><i>{{ post.venue }}</i>{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date | date: "%b %Y" }}{% endif %}</p>
-    {% endif %}
-
-    {{ post.content }}
+    <details class="experience-item">
+      <summary class="experience-summary">
+        <span class="experience-title" itemprop="headline">{{ title }}</span>
+        {% if post.venue %}
+          <span class="experience-meta">
+            {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date | date: "%b %Y" }}{% endif %}
+          </span>
+        {% endif %}
+      </summary>
+      <div class="experience-content">
+        {{ post.content }}
+      </div>
+    </details>
   </article>
 </div>
