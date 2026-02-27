@@ -8,14 +8,17 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title news-title-clickable" itemprop="headline" style="cursor: pointer;" onclick="showNewsDate('{{ post.date | date: "%B %d, %Y" }}')">{{ title }}</h2>
-
-    {{ post.content }}
+    <details class="news-item">
+      <summary class="news-summary">
+        <span class="news-arrow"></span>
+        <span class="news-title" itemprop="headline">{{ title }}</span>
+      </summary>
+      <div class="news-content">
+        {% if post.date %}
+          <p class="news-date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+        {{ post.content }}
+      </div>
+    </details>
   </article>
 </div>
-
-<script>
-function showNewsDate(date) {
-  alert('Published on: ' + date);
-}
-</script>

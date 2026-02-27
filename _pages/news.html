@@ -5,6 +5,100 @@ permalink: /news/
 author_profile: true
 ---
 
+<style>
+.news-controls {
+  display: inline-flex;
+  gap: 8px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+.news-toggle {
+  border: 1px solid #8B0000;
+  color: #8B0000;
+  background: #fff;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.news-toggle:hover {
+  background: #8B0000;
+  color: #fff;
+}
+.news-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.news-summary::-webkit-details-marker {
+  display: none;
+}
+.news-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid #8B0000;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+details.news-item[open] .news-arrow {
+  transform: rotate(90deg);
+}
+.news-title {
+  font-weight: 700;
+  color: #8B0000;
+  font-size: 1.3em;
+}
+.news-content {
+  margin-top: 8px;
+  padding-left: 20px;
+}
+.news-date {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var titleEl = document.querySelector('.page__title');
+  if (titleEl) {
+    var controls = document.createElement('span');
+    controls.className = 'news-controls';
+    controls.innerHTML = '<button type="button" class="news-toggle" data-state="collapsed">Expand all</button>';
+    titleEl.appendChild(controls);
+  }
+
+  var allCollapsed = true;
+
+  function toggleAll() {
+    allCollapsed = !allCollapsed;
+    document.querySelectorAll('.news-item').forEach(function (item) {
+      item.open = !allCollapsed;
+    });
+    var btn = document.querySelector('.news-toggle');
+    if (btn) {
+      btn.textContent = allCollapsed ? 'Expand all' : 'Collapse all';
+      btn.setAttribute('data-state', allCollapsed ? 'collapsed' : 'expanded');
+    }
+  }
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.news-toggle');
+    if (btn) {
+      toggleAll();
+    }
+  });
+});
+</script>
+
 <p style="color: red; font-weight: bold; background-color: #fff0f0; padding: 10px; border-left: 4px solid red;">📢 I am always looking for collaborators. If you are interested in my work, please feel free to contact me to discuss potential collaboration opportunities!</p>
 
 {% for post in site.news reversed %}
