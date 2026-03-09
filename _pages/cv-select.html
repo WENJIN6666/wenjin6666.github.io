@@ -1,0 +1,181 @@
+---
+layout: archive
+title: "Curriculum Vitae"
+permalink: /cv-select/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p class="cv-select__subtitle">Select the version of CV you'd like to view.</p>
+
+<div class="cv-select__grid">
+
+  <!-- English - Detailed (Active) -->
+  <a href="/files/cv.pdf" target="_blank" class="cv-card cv-card--active">
+    <div class="cv-card__lang-badge">EN</div>
+    <div class="cv-card__body">
+      <h2 class="cv-card__title">English</h2>
+      <p class="cv-card__desc">Detailed Version</p>
+      <span class="cv-card__tag cv-card__tag--available">Available</span>
+    </div>
+    <div class="cv-card__footer">
+      <span class="cv-card__action">Open PDF &nbsp;&#8599;</span>
+    </div>
+  </a>
+
+  <!-- English - Brief (Coming Soon) -->
+  <div class="cv-card cv-card--soon">
+    <div class="cv-card__lang-badge cv-card__lang-badge--dim">EN</div>
+    <div class="cv-card__body">
+      <h2 class="cv-card__title">English</h2>
+      <p class="cv-card__desc">Brief Version</p>
+      <span class="cv-card__tag cv-card__tag--soon">Coming Soon</span>
+    </div>
+    <div class="cv-card__footer">
+      <span class="cv-card__action cv-card__action--dim">In preparation&hellip;</span>
+    </div>
+  </div>
+
+  <!-- 中文 - 详细版 (Coming Soon) -->
+  <div class="cv-card cv-card--soon">
+    <div class="cv-card__lang-badge cv-card__lang-badge--dim">中</div>
+    <div class="cv-card__body">
+      <h2 class="cv-card__title">中文</h2>
+      <p class="cv-card__desc">详细版</p>
+      <span class="cv-card__tag cv-card__tag--soon">敬请期待</span>
+    </div>
+    <div class="cv-card__footer">
+      <span class="cv-card__action cv-card__action--dim">准备中&hellip;</span>
+    </div>
+  </div>
+
+  <!-- 中文 - 简洁版 (Coming Soon) -->
+  <div class="cv-card cv-card--soon">
+    <div class="cv-card__lang-badge cv-card__lang-badge--dim">中</div>
+    <div class="cv-card__body">
+      <h2 class="cv-card__title">中文</h2>
+      <p class="cv-card__desc">简洁版</p>
+      <span class="cv-card__tag cv-card__tag--soon">敬请期待</span>
+    </div>
+    <div class="cv-card__footer">
+      <span class="cv-card__action cv-card__action--dim">准备中&hellip;</span>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.cv-select__subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cv-select__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* ── Base card ── */
+.cv-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  text-decoration: none !important;
+  color: inherit;
+  background: #fff;
+}
+
+/* ── Active card hover ── */
+.cv-card--active:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.14);
+  border-color: #52adc8;
+}
+
+/* ── Coming-soon card ── */
+.cv-card--soon {
+  opacity: 0.55;
+  cursor: default;
+  background: #fafafa;
+}
+
+/* ── Language badge ── */
+.cv-card__lang-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background: linear-gradient(135deg, #52adc8 0%, #3a8fa8 100%);
+  color: #fff;
+}
+
+.cv-card__lang-badge--dim {
+  background: linear-gradient(135deg, #b0bec5 0%, #90a4ae 100%);
+}
+
+/* ── Card body ── */
+.cv-card__body {
+  flex: 1;
+  padding: 1rem 1.1rem 0.5rem;
+}
+
+.cv-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+  color: #222;
+}
+
+.cv-card__desc {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0 0 0.7rem;
+}
+
+/* ── Tag pill ── */
+.cv-card__tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.cv-card__tag--available {
+  background: #e6f7ec;
+  color: #2a7a47;
+}
+
+.cv-card__tag--soon {
+  background: #f0f0f0;
+  color: #888;
+}
+
+/* ── Card footer ── */
+.cv-card__footer {
+  padding: 0.65rem 1.1rem 0.9rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.cv-card__action {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #52adc8;
+}
+
+.cv-card__action--dim {
+  color: #aaa;
+}
+</style>
