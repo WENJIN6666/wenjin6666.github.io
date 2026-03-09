@@ -77,33 +77,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var allCollapsed = true;
 
-  function updateButtonState() {
-    var items = document.querySelectorAll('.experience-item');
-    var openCount = 0;
-    items.forEach(function (item) {
-      if (item.open) openCount++;
-    });
-    
-    var btn = document.querySelector('.experience-toggle');
-    if (btn && items.length > 0) {
-      if (openCount === 0) {
-        allCollapsed = true;
-        btn.textContent = 'Expand all';
-        btn.setAttribute('data-state', 'collapsed');
-      } else if (openCount === items.length) {
-        allCollapsed = false;
-        btn.textContent = 'Collapse all';
-        btn.setAttribute('data-state', 'expanded');
-      }
-    }
-  }
-
   function toggleAll() {
     allCollapsed = !allCollapsed;
     document.querySelectorAll('.experience-item').forEach(function (item) {
       item.open = !allCollapsed;
     });
-    updateButtonState();
+    var btn = document.querySelector('.experience-toggle');
+    if (btn) {
+      btn.textContent = allCollapsed ? 'Expand all' : 'Collapse all';
+      btn.setAttribute('data-state', allCollapsed ? 'collapsed' : 'expanded');
+    }
   }
 
   document.addEventListener('click', function (e) {
@@ -112,13 +95,6 @@ document.addEventListener('DOMContentLoaded', function () {
       toggleAll();
     }
   });
-
-  // Listen for manual toggle events
-  document.addEventListener('toggle', function (e) {
-    if (e.target.classList.contains('experience-item')) {
-      updateButtonState();
-    }
-  }, true);
 });
 </script>
 
