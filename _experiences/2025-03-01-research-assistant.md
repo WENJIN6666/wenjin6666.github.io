@@ -10,3 +10,4 @@ venue: "<a href='https://www.dlut.edu.cn/' target='_blank'>Dalian University of 
 
 - Advisor: <a href="https://faculty.dlut.edu.cn/2012015034/zh_CN/index.htm" target="_blank">Prof. Heng Qi</a>
 - Research period: Mar 2025 - May 2026
+- Research topic: Time series forecasting, primarily focusing on the design of loss functions and time series representation
