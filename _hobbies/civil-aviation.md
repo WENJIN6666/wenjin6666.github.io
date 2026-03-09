@@ -17,7 +17,7 @@ I am passionate about aviation and enjoy tracking flights, studying airline oper
 
 ## Airports I Have Visited
 
-I have visited **29 airports** across 5 countries/regions, with **64 flights** totaling **86,923 km** (54,011 miles). Click the markers on the map below to see airport details.
+I have visited **30 airports** across 6 countries/regions, with **69 flights** totaling **97,224 km** (60,412 miles). Click the markers on the map below to see airport details.
 
 <iframe src="/assets/maps/airports.html" width="100%" height="620" frameborder="0" style="border:0;"></iframe>
 
@@ -25,7 +25,7 @@ I have visited **29 airports** across 5 countries/regions, with **64 flights** t
 
 ## Aircraft Types I Have Flown
 
-I have flown on **11 different aircraft types** from 4 manufacturers. Click on each aircraft type to see the flights I've taken.
+I have flown on **12 different aircraft types** from 4 manufacturers. Click on each aircraft type to see the flights I've taken.
 
 <style>
 .aircraft-section {
@@ -157,20 +157,21 @@ I have flown on **11 different aircraft types** from 4 manufacturers. Click on e
 <div class="aircraft-section">
   <h3><img src="/images/logos/Boeing.png" alt="Boeing"> Boeing</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card" onclick="showFlights('B737-800', 'b737800')">B737-800 (31)</div>
+    <div class="aircraft-card" onclick="showFlights('B737-800', 'b737800')">B737-800 (32)</div>
     <div class="aircraft-card" onclick="showFlights('B737 MAX 8', 'b737max8')">B737 MAX 8 (2)</div>
     <div class="aircraft-card" onclick="showFlights('B757-200', 'b757200')">B757-200 (1)</div>
     <div class="aircraft-card" onclick="showFlights('B777-300ER', 'b777300er')">B777-300ER (1)</div>
+    <div class="aircraft-card" onclick="showFlights('B787-9', 'b7879')">B787-9 (1)</div>
   </div>
 </div>
 
 <div class="aircraft-section">
   <h3><img src="/images/logos/airbus.png" alt="Airbus"> Airbus</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card" onclick="showFlights('A320/A321', 'a320321')">A320/A321 (22)</div>
+    <div class="aircraft-card" onclick="showFlights('A320/A321', 'a320321')">A320/A321 (24)</div>
     <div class="aircraft-card" onclick="showFlights('A330-200', 'a330200')">A330-200 (1)</div>
     <div class="aircraft-card" onclick="showFlights('A330-300', 'a330300')">A330-300 (1)</div>
-    <div class="aircraft-card" onclick="showFlights('A350-900', 'a350900')">A350-900 (2)</div>
+    <div class="aircraft-card" onclick="showFlights('A350-900', 'a350900')">A350-900 (3)</div>
     <div class="aircraft-card" onclick="showFlights('A380-800', 'a380800')">A380-800 (1)</div>
   </div>
 </div>
@@ -222,7 +223,8 @@ const flightData = {
     {date: '2025-09-06', code: 'SC8808', route: 'TNA→DLC'},
     {date: '2025-09-10', code: 'SC1195', route: 'DLC→TNA'},
     {date: '2025-11-28', code: 'HU7259', route: 'CAN→DOY→DLC'},
-    {date: '2026-01-08', code: 'CA8901', route: 'DLC→PEK'}
+    {date: '2026-01-08', code: 'CA8901', route: 'DLC→PEK'},
+    {date: '2026-03-02', code: 'CA8902', route: 'PEK→DLC'}
   ],
   b737max8: [
     {date: '2024-01-20', code: 'CZ3664', route: 'TNA→CAN'},
@@ -233,6 +235,9 @@ const flightData = {
   ],
   b777300er: [
     {date: '2026-01-07', code: 'MU5414', route: 'CTU→PVG'}
+  ],
+  b7879: [
+    {date: '2026-03-08', code: 'CZ350', route: 'KUL→CAN'}
   ],
   a320321: [
     {date: '2017-02-05', code: 'HO1174', route: 'DOY→PVG'},
@@ -256,7 +261,9 @@ const flightData = {
     {date: '2025-12-22', code: '9C6732', route: 'HET→DLC'},
     {date: '2026-01-04', code: 'MU6622', route: 'DLC→TYN→LHW'},
     {date: '2026-01-04', code: 'MU2472', route: 'LHW→TFU'},
-    {date: '2026-01-07', code: 'MU5673', route: 'PVG→DLC'}
+    {date: '2026-01-07', code: 'MU5673', route: 'PVG→DLC'},
+    {date: '2026-03-04', code: 'CZ6486', route: 'DLC→CAN'},
+    {date: '2026-03-08', code: 'CZ6458', route: 'CAN→DLC'}
   ],
   a330200: [
     {date: '2024-05-10', code: 'MU545', route: 'PVG→SIN'}
@@ -266,7 +273,8 @@ const flightData = {
   ],
   a350900: [
     {date: '2024-05-16', code: 'MU546', route: 'SIN→PVG'},
-    {date: '2025-03-02', code: 'OZ203', route: 'LAX→ICN'}
+    {date: '2025-03-02', code: 'OZ203', route: 'LAX→ICN'},
+    {date: '2026-03-05', code: 'CZ349', route: 'CAN→KUL'}
   ],
   a380800: [
     {date: '2025-02-20', code: 'OZ202', route: 'ICN→LAX'}
