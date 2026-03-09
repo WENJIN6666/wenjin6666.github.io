@@ -78,16 +78,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var allCollapsed = true;
 
+  function updateButtonState() {
+    var items = document.querySelectorAll('.news-item');
+    var openCount = 0;
+    items.forEach(function (item) {
+      if (item.open) openCount++;
+    });
+    
+    var btn = document.querySelector('.news-toggle');
+    if (btn && items.length > 0) {
+      if (openCount === 0) {
+        allCollapsed = true;
+        btn.textContent = 'Expand all';
+        btn.setAttribute('data-state', 'collapsed');
+      } else if (openCount === items.length) {
+        allCollapsed = false;
+        btn.textContent = 'Collapse all';
+        btn.setAttribute('data-state', 'expanded');
+      }
+    }
+  }
+
   function toggleAll() {
     allCollapsed = !allCollapsed;
     document.querySelectorAll('.news-item').forEach(function (item) {
       item.open = !allCollapsed;
     });
-    var btn = document.querySelector('.news-toggle');
-    if (btn) {
-      btn.textContent = allCollapsed ? 'Expand all' : 'Collapse all';
-      btn.setAttribute('data-state', allCollapsed ? 'collapsed' : 'expanded');
-    }
+    updateButtonState();
   }
 
   document.addEventListener('click', function (e) {
@@ -96,6 +113,13 @@ document.addEventListener('DOMContentLoaded', function () {
       toggleAll();
     }
   });
+
+  // Listen for manual toggle events
+  document.addEventListener('toggle', function (e) {
+    if (e.target.classList.contains('news-item')) {
+      updateButtonState();
+    }
+  }, true);
 });
 </script>
 
