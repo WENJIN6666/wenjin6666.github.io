@@ -17,7 +17,7 @@ I am passionate about aviation and enjoy tracking flights, studying airline oper
 
 ## Airports I Have Visited
 
-I have visited **30 airports** across 6 countries/regions, with **69 flights** totaling **97,224 km** (60,412 miles). Click the markers on the map below to see airport details.
+I have visited **32 airports** across 6 countries/regions, with **73 flights** totaling **107,566 km** (66,838 miles). Click the markers on the map below to see airport details.
 
 <iframe src="/assets/maps/airports.html" width="100%" height="620" frameborder="0" style="border:0;"></iframe>
 
@@ -158,7 +158,7 @@ I have flown on **12 different aircraft types** from 4 manufacturers. Click on e
   <h3><img src="/images/logos/Boeing.png" alt="Boeing"> Boeing</h3>
   <div class="aircraft-grid">
     <div class="aircraft-card" onclick="showFlights('B737-800', 'b737800')">B737-800 (32)</div>
-    <div class="aircraft-card" onclick="showFlights('B737 MAX 8', 'b737max8')">B737 MAX 8 (2)</div>
+    <div class="aircraft-card" onclick="showFlights('B737 MAX 8', 'b737max8')">B737 MAX 8 (3)</div>
     <div class="aircraft-card" onclick="showFlights('B757-200', 'b757200')">B757-200 (1)</div>
     <div class="aircraft-card" onclick="showFlights('B777-300ER', 'b777300er')">B777-300ER (1)</div>
     <div class="aircraft-card" onclick="showFlights('B787-9', 'b7879')">B787-9 (1)</div>
@@ -168,7 +168,7 @@ I have flown on **12 different aircraft types** from 4 manufacturers. Click on e
 <div class="aircraft-section">
   <h3><img src="/images/logos/airbus.png" alt="Airbus"> Airbus</h3>
   <div class="aircraft-grid">
-    <div class="aircraft-card" onclick="showFlights('A320/A321', 'a320321')">A320/A321 (24)</div>
+    <div class="aircraft-card" onclick="showFlights('A320/A321', 'a320321')">A320/A321 (27)</div>
     <div class="aircraft-card" onclick="showFlights('A330-200', 'a330200')">A330-200 (1)</div>
     <div class="aircraft-card" onclick="showFlights('A330-300', 'a330300')">A330-300 (1)</div>
     <div class="aircraft-card" onclick="showFlights('A350-900', 'a350900')">A350-900 (3)</div>
@@ -228,7 +228,8 @@ const flightData = {
   ],
   b737max8: [
     {date: '2024-01-20', code: 'CZ3664', route: 'TNA→CAN'},
-    {date: '2024-07-27', code: 'ZH9907', route: 'SZX→TNA'}
+    {date: '2024-07-27', code: 'ZH9907', route: 'SZX→TNA'},
+    {date: '2026-04-16', code: 'CZ8891', route: 'KHG→PKX'}
   ],
   b757200: [
     {date: '2025-03-01', code: 'DL392', route: 'DCA→LAX'}
@@ -263,7 +264,10 @@ const flightData = {
     {date: '2026-01-04', code: 'MU2472', route: 'LHW→TFU'},
     {date: '2026-01-07', code: 'MU5673', route: 'PVG→DLC'},
     {date: '2026-03-04', code: 'CZ6486', route: 'DLC→CAN'},
-    {date: '2026-03-08', code: 'CZ6458', route: 'CAN→DLC'}
+    {date: '2026-03-08', code: 'CZ6458', route: 'CAN→DLC'},
+    {date: '2026-04-07', code: 'MU5622', route: 'DLC→PVG'},
+    {date: '2026-04-08', code: 'MU6221', route: 'PVG→KHG'},
+    {date: '2026-04-16', code: 'CZ6122', route: 'PKX→DLC'}
   ],
   a330200: [
     {date: '2024-05-10', code: 'MU545', route: 'PVG→SIN'}
