@@ -24,17 +24,24 @@ permalink: /hobbies/airports-map/
             font-weight: 600;
             margin-bottom: 6px;
         }
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            margin: 3px 0;
+        .legend-subtitle {
+            font-size: 11px;
+            color: #555;
+            margin-bottom: 6px;
         }
-        .legend-swatch {
-            width: 10px;
+        .legend-scale {
+            width: 170px;
             height: 10px;
-            border-radius: 50%;
+            border-radius: 999px;
             border: 1px solid rgba(0, 0, 0, 0.2);
+            background: linear-gradient(90deg, #22c55e 0%, #2563eb 25%, #facc15 50%, #f97316 75%, #ef4444 100%);
+        }
+        .legend-labels {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4px;
+            font-size: 11px;
+            color: #444;
         }
     </style>
 </head>
@@ -160,11 +167,9 @@ permalink: /hobbies/airports-map/
             var div = L.DomUtil.create('div', 'legend');
             div.innerHTML =
                 '<div class="title">Airport Visits</div>' +
-                '<div class="legend-item"><span class="legend-swatch" style="background:#2563eb"></span>2-3 times</div>' +
-                '<div class="legend-item"><span class="legend-swatch" style="background:#facc15"></span>4-7 times</div>' +
-                '<div class="legend-item"><span class="legend-swatch" style="background:#f97316"></span>8-14 times</div>' +
-                '<div class="legend-item"><span class="legend-swatch" style="background:#ef4444"></span>15+ times</div>' +
-                '<div class="legend-item"><span class="legend-swatch" style="background:#22c55e"></span>1 time</div>';
+                '<div class="legend-subtitle">Departures + Arrivals</div>' +
+                '<div class="legend-scale"></div>' +
+                '<div class="legend-labels"><span>Low (1)</span><span>High (43)</span></div>';
             return div;
         };
         legend.addTo(map);
