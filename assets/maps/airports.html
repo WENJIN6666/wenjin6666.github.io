@@ -128,6 +128,76 @@
             YCU: 2
         };
 
+        var airportDepartures = {
+            CAN: 3,
+            CSX: 1,
+            CTU: 1,
+            DCA: 1,
+            DLC: 20,
+            DOY: 10,
+            HAK: 1,
+            HET: 1,
+            ICN: 2,
+            JFK: 1,
+            KHG: 1,
+            KIX: 1,
+            KUL: 1,
+            LAX: 2,
+            LHW: 1,
+            PEK: 2,
+            PKX: 1,
+            PVG: 6,
+            SFO: 1,
+            SHA: 1,
+            SHE: 1,
+            SIN: 1,
+            SQD: 1,
+            SZX: 1,
+            TAO: 1,
+            TFU: 0,
+            TNA: 6,
+            TSN: 0,
+            TYN: 1,
+            WUH: 2,
+            XMN: 0,
+            YCU: 1
+        };
+
+        var airportArrivals = {
+            CAN: 4,
+            CSX: 0,
+            CTU: 1,
+            DCA: 1,
+            DLC: 23,
+            DOY: 7,
+            HAK: 0,
+            HET: 1,
+            ICN: 2,
+            JFK: 1,
+            KHG: 1,
+            KIX: 1,
+            KUL: 1,
+            LAX: 2,
+            LHW: 1,
+            PEK: 2,
+            PKX: 1,
+            PVG: 6,
+            SFO: 1,
+            SHA: 1,
+            SHE: 0,
+            SIN: 1,
+            SQD: 0,
+            SZX: 2,
+            TAO: 0,
+            TFU: 1,
+            TNA: 6,
+            TSN: 1,
+            TYN: 1,
+            WUH: 2,
+            XMN: 1,
+            YCU: 1
+        };
+
         var trafficValues = Object.keys(airportTraffic).map(function(code) {
             return airportTraffic[code];
         });
@@ -197,10 +267,12 @@
 
         airports.forEach(function(airport) {
             var count = airportTraffic[airport.code] || 0;
+            var departures = airportDepartures[airport.code] || 0;
+            var arrivals = airportArrivals[airport.code] || 0;
             L.marker([airport.lat, airport.lng])
                 .setIcon(getMarkerIcon(count))
                 .addTo(map)
-                .bindPopup("<b>" + airport.code + "</b><br>" + airport.name + "<br>Departures + Arrivals: " + count);
+                .bindPopup("<b>" + airport.code + "</b><br>" + airport.name + "<br>Departures: " + departures + "<br>Arrivals: " + arrivals + "<br>Total: " + count);
         });
 
         var legend = L.control({position: 'bottomright'});
