@@ -128,34 +128,77 @@
             YCU: 2
         };
 
-        function getMarkerColor(count) {
-            if (count >= 15) return 'red';
-            if (count >= 8) return 'orange';
-            if (count >= 4) return 'yellow';
-            if (count >= 2) return 'blue';
-            return 'green';
+        var trafficValues = Object.keys(airportTraffic).map(function(code) {
+            return airportTraffic[code];
+        });
+        var minTraffic = Math.min.apply(null, trafficValues);
+        var maxTraffic = Math.max.apply(null, trafficValues);
+
+        var colorStops = [
+            {t: 0.0, rgb: [34, 197, 94]},
+            {t: 0.25, rgb: [37, 99, 235]},
+            {t: 0.5, rgb: [250, 204, 21]},
+            {t: 0.75, rgb: [249, 115, 22]},
+            {t: 1.0, rgb: [239, 68, 68]}
+        ];
+
+        function clamp(value, min, max) {
+            return Math.max(min, Math.min(max, value));
+        }
+
+        function rgbToHex(rgb) {
+            return '#' + rgb.map(function(v) {
+                var h = Math.round(v).toString(16);
+                return h.length === 1 ? '0' + h : h;
+            }).join('');
+        }
+
+        function interpolateColor(count) {
+            if (maxTraffic === minTraffic) {
+                return rgbToHex(colorStops[colorStops.length - 1].rgb);
+            }
+
+            var t = clamp((count - minTraffic) / (maxTraffic - minTraffic), 0, 1);
+            for (var i = 0; i < colorStops.length - 1; i++) {
+                var left = colorStops[i];
+                var right = colorStops[i + 1];
+                if (t >= left.t && t <= right.t) {
+                    var localT = (t - left.t) / (right.t - left.t);
+                    var rgb = [0, 1, 2].map(function(idx) {
+                        return left.rgb[idx] + (right.rgb[idx] - left.rgb[idx]) * localT;
+                    });
+                    return rgbToHex(rgb);
+                }
+            }
+            return rgbToHex(colorStops[colorStops.length - 1].rgb);
+        }
+
+        function createPinSvg(hexColor) {
+            return '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="42" viewBox="0 0 30 42">' +
+                '<path d="M15 1C7.27 1 1 7.27 1 15c0 10.39 14 26 14 26s14-15.61 14-26C29 7.27 22.73 1 15 1z" fill="' + hexColor + '" stroke="#ffffff" stroke-width="2"/>' +
+                '<circle cx="15" cy="15" r="5.5" fill="rgba(255,255,255,0.92)"/>' +
+                '</svg>';
         }
 
         var markerIcons = {};
-        function getMarkerIcon(color) {
-            if (!markerIcons[color]) {
-                markerIcons[color] = new L.Icon({
-                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-' + color + '.png',
-                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-                    iconSize: [25, 41],
+        function getMarkerIcon(count) {
+            var hexColor = interpolateColor(count);
+            if (!markerIcons[hexColor]) {
+                markerIcons[hexColor] = new L.Icon({
+                    iconUrl: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(createPinSvg(hexColor)),
+                    iconSize: [30, 42],
                     iconAnchor: [12, 41],
                     popupAnchor: [1, -34],
-                    shadowSize: [41, 41]
+                    className: 'airport-pin-icon'
                 });
             }
-            return markerIcons[color];
+            return markerIcons[hexColor];
         }
 
         airports.forEach(function(airport) {
             var count = airportTraffic[airport.code] || 0;
-            var color = getMarkerColor(count);
             L.marker([airport.lat, airport.lng])
-                .setIcon(getMarkerIcon(color))
+                .setIcon(getMarkerIcon(count))
                 .addTo(map)
                 .bindPopup("<b>" + airport.code + "</b><br>" + airport.name + "<br>Departures + Arrivals: " + count);
         });
@@ -167,7 +210,7 @@
                 '<div class="title">Airport Visits</div>' +
                 '<div class="legend-subtitle">Departures + Arrivals</div>' +
                 '<div class="legend-scale"></div>' +
-                '<div class="legend-labels"><span>Low (1)</span><span>High (43)</span></div>';
+                '<div class="legend-labels"><span>Low (' + minTraffic + ')</span><span>High (' + maxTraffic + ')</span></div>';
             return div;
         };
         legend.addTo(map);
