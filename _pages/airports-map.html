@@ -11,6 +11,31 @@ permalink: /hobbies/airports-map/
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
         #map { height: 600px; width: 100%; }
+        .legend {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 10px 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            line-height: 1.4;
+            font-size: 12px;
+            color: #222;
+        }
+        .legend .title {
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin: 3px 0;
+        }
+        .legend-swatch {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 <body style="margin:0; padding:0;">
@@ -63,11 +88,86 @@ permalink: /hobbies/airports-map/
             {code: "YCU", name: "Yuncheng Zhangxiao", lat: 35.1164, lng: 111.0314}
         ];
 
+        var airportTraffic = {
+            CAN: 7,
+            CSX: 1,
+            CTU: 2,
+            DCA: 2,
+            DLC: 43,
+            DOY: 17,
+            HAK: 1,
+            HET: 2,
+            ICN: 4,
+            JFK: 2,
+            KHG: 2,
+            KIX: 2,
+            KUL: 2,
+            LAX: 4,
+            LHW: 2,
+            PEK: 4,
+            PKX: 2,
+            PVG: 12,
+            SFO: 2,
+            SHA: 2,
+            SHE: 1,
+            SIN: 2,
+            SQD: 1,
+            SZX: 3,
+            TAO: 1,
+            TFU: 1,
+            TNA: 12,
+            TSN: 1,
+            TYN: 2,
+            WUH: 4,
+            XMN: 1,
+            YCU: 2
+        };
+
+        function getMarkerColor(count) {
+            if (count >= 15) return 'red';
+            if (count >= 8) return 'orange';
+            if (count >= 4) return 'yellow';
+            if (count >= 2) return 'blue';
+            return 'green';
+        }
+
+        var markerIcons = {};
+        function getMarkerIcon(color) {
+            if (!markerIcons[color]) {
+                markerIcons[color] = new L.Icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-' + color + '.png',
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                });
+            }
+            return markerIcons[color];
+        }
+
         airports.forEach(function(airport) {
+            var count = airportTraffic[airport.code] || 0;
+            var color = getMarkerColor(count);
             L.marker([airport.lat, airport.lng])
+                .setIcon(getMarkerIcon(color))
                 .addTo(map)
-                .bindPopup("<b>" + airport.code + "</b><br>" + airport.name);
+                .bindPopup("<b>" + airport.code + "</b><br>" + airport.name + "<br>Departures + Arrivals: " + count);
         });
+
+        var legend = L.control({position: 'bottomright'});
+        legend.onAdd = function() {
+            var div = L.DomUtil.create('div', 'legend');
+            div.innerHTML =
+                '<div class="title">Airport Visits</div>' +
+                '<div class="legend-item"><span class="legend-swatch" style="background:#2563eb"></span>2-3 times</div>' +
+                '<div class="legend-item"><span class="legend-swatch" style="background:#facc15"></span>4-7 times</div>' +
+                '<div class="legend-item"><span class="legend-swatch" style="background:#f97316"></span>8-14 times</div>' +
+                '<div class="legend-item"><span class="legend-swatch" style="background:#ef4444"></span>15+ times</div>' +
+                '<div class="legend-item"><span class="legend-swatch" style="background:#22c55e"></span>1 time</div>';
+            return div;
+        };
+        legend.addTo(map);
     </script>
 </body>
 </html>
